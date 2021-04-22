@@ -16,7 +16,9 @@
 get_header();
 
 ?>
-	<h1>Index</h1>
+<div class="container ">
+	<h1 class="blue-5">Index</h1>
+</div>
 	<?php get_sidebar(); ?>
 
 	<?php get_sidebar(); ?>
