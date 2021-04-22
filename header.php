@@ -57,27 +57,27 @@
 				<div class="container-fluid my-3 d-sm-none p-0 m-0 navbar-full-height d-flex flex-column justify-content-between">
 					<ul class="navbar-nav  ps-4 pt-4">
 						<li class="nav-item">
-							<p class="h1 text-white font-weight-bold mt-2 mb-4 " >
+							<p class="h1 text-white fw-bold mt-2 mb-5 " >
 								<span class="under-line">More to see</span>
 							</p>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white h3 my-2" href="#">
+							<a class="nav-link text-white h3 my-2 fw-normal" href="#">
 								<span class="under-line">Home</span>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white h3 my-2" href="#">
+							<a class="nav-link text-white h3 my-2 fw-normal" href="#">
 							<span class="under-line">Builders</span>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white h3 my-2" href="#">
+							<a class="nav-link text-white h3 my-2 fw-normal" href="#">
 							<span class="under-line">consumers</span>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white h3 my-2" href="#">
+							<a class="nav-link text-white h3 my-2 fw-normal" href="#">
 							<span class="under-line">Blog</span>
 							</a>
 						</li>
