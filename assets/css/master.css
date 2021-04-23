@@ -15,7 +15,7 @@
   color: var(--blue-2);
 }
 .blue-3 {
-  color: var(--blue-3);
+  color: var(--blue-3) !important;
 }
 .blue-4 {
   color: var(--blue-4);
@@ -50,21 +50,26 @@ h1 {
 /* HEADER styles mobile */
 
 .navbar-full-height {
-  height: 70vh;
+  height: 60vh;
+  /* height: 100%; */
   background-color: var(--blue-5);
 }
 
 .under-line {
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid white;
   padding-bottom: 5px;
 }
 
 .mobile-child-custom ul li a {
   font-size: xx-large;
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
   /* margin: 1.2em 0 1.2em 0; */
 }
 .mobile-child-custom ul li {
-  margin: 1em;
+  margin-top: 1em;
 }
 
 /* HEADER styles mobile */
