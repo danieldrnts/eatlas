@@ -22,9 +22,16 @@ get_header();
         <div class="container">
             <div class="row col-12">
                 <p class="fw-bold fs-1">Meeet eAtlas</p>
+                <p class="fw-bold fs-4">Lorem dolor sit amet</p>
             </div>
-            <div class="row col-12"></div>
-            <div class="row col-12"></div>
+            <div class="row col-12">
+                <div class="bg-warning" style="height: 300px; width: 100%">
+                <p>some</p>
+                </div>
+            </div>
+            <div class="row col-12">
+                <p class="h1">Some</p>
+            </div>
         </div>
     </div>
 </div>

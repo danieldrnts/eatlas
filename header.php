@@ -27,7 +27,7 @@
 	<!-- tag para el main container -->
 	<div class="container-fluid mx-0 px-0" style="height: 100vh;">
 		<div class="row d-flex flex-row h-100 mx-0 ">
-			<div class="col-12 px-0 position-fixed">
+			<div class="col-12 px-0 position-sticky" style="top: 0.1px;">
 				<!-- Navbar -->
 				<nav class="navbar navbar-expand-lg navbar-light bg-blue-3">
 					<div class="container-fluid px-0 py-2">
