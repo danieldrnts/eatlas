@@ -1,4 +1,8 @@
 /* FONTS & GLOBAL SETTINGS*/
+html,
+body {
+  height: 100%;
+}
 
 :root {
   --blue-1: #e9f5fe;
