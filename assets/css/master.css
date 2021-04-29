@@ -64,6 +64,11 @@ h1 {
   padding-bottom: 5px;
 }
 
+.under-line-blue {
+  border-bottom: 2px solid var(--blue-5);
+  padding-bottom: 5px;
+}
+
 .mobile-child-custom ul li a {
   font-size: xx-large;
   color: white;

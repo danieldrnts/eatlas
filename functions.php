@@ -6,7 +6,6 @@ wp_register_style(
 	get_template_directory_uri() . '/assets/css/master.css',
 	array(),
 	false,
-	'all'
 );
 
 // Incluir mi Master.js

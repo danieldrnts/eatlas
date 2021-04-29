@@ -40,15 +40,15 @@ get_header();
         <div class="container ">
             <div class="row col-12 py-4">
                 <p class="fw-bolder fs-1 text-center blue-5">Meeet eAtlas</p>
-                <p class="fw-light fs-4 text-center blue-5">Lorem dolor sit amet</p>
+                <p class="fw-lighter fs-5 text-center blue-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quidem ullam odit enim quas rerum libero rem </p>
             </div>
             <div class="row col-12 mx-auto">
-                <video class="position-relative" style="height: 100%; width: auto" src="<?php echo get_bloginfo('template_url') ?>/assets/videos/meetVideo.mp4">
+                <video controls class="position-relative" style="height: 100%; width: auto" src="<?php echo get_bloginfo('template_url') ?>/assets/videos/meetVideo.mp4">
                     <i style="height: 3em;" class="bi bi-play-circle-fill position-absolute top-100 start-50"></i>
                 </video>
             </div>
             <div class="row col-12 m-0 mt-4">
-                <p class="fw-bold fs-3 py-2 text-center blue-5">Get eAtlas</p>
+                <p class="fw-normal fs-1 py-2 text-center blue-5">Get eAtlas</p>
                 <div class="d-flex flex-row  justify-content-center mx-auto">
                     <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
                     <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
@@ -172,7 +172,7 @@ get_header();
             <p class="fw-light blue-4 fs-6 text-center mx-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quod quasi </p>
         </div>
         <div class="col-12 mb-3">
-            <div class="container">
+            <div class="container-fluid p-0">
                 <div class="row my-2">
                     <div class="col-6">
                         <?php
@@ -197,8 +197,8 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="col-12 mt-4">
-            <p class="fw-bold fs-3 blue-5 text-center">
+        <div class="col-12 my-4">
+            <p class="fw-bold fs-3 blue-5 text-center under-line-blue mx-1 "  >
                 Visit our Experiences Blog
             </p>
         </div>
