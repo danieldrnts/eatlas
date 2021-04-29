@@ -2,6 +2,23 @@
 
 get_header();
 
+/** Declaring my global variables for the template parts 
+ * Experiences cards
+ */
+
+// Some Query to the database of wordpress i.e. get_posts();
+// args to the query
+//  $queryArgs = array('numberposts'=>  3);
+//  $experiencesCards = array();
+//  foreach (get_posts() as $value) {
+//      # code...
+//     // print_r($value->to_array());
+//     array_push($experiencesCards, $value);
+//  }
+
+//  print_r($experiencesCards);
+//  echo $experiencesCards[0];
+
 ?>
 
 <div class="container-fluid px-0">
@@ -138,8 +155,8 @@ get_header();
             <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
             <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
             <div class="d-flex flex-row  justify-content-center mx-auto">
-                <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
+                <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
             </div>
         </div>
         <div class=" mt-5 col-12 bg-blue-4 d-flex flex-column justify-content-center flex-grow-1 " style="border-top-left-radius: 50%;border-top-right-radius: 50%;">
@@ -149,34 +166,41 @@ get_header();
         </div>
     </div>
     <!-- NOTE Some Experiences -->
-    <div class="row m-0 p-0 bg-blue-2">
-        <div class="col-12">
+    <div class="row m-0 p-0 bg-blue-2 d-flex flex-column" style="min-height: 100vh;">
+        <div class="col-12 mt-3">
+            <p class="fw-bold blue-5 fs-1 text-center">Some experiences</p>
+            <p class="fw-light blue-4 fs-6 text-center mx-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quod quasi </p>
+        </div>
+        <div class="col-12 mb-3">
             <div class="container">
-                <div class="row">
+                <div class="row my-2">
                     <div class="col-6">
-                        <?php include("template-parts/experience-card.php"); ?>            
+                        <?php
+                        get_template_part('template-parts/experience', 'card');
+                        // get_template_part('template-parts/experience', 'card', $experiencesCards[2]);
+                        ?>
                     </div>
                     <div class="col-6">
-                    <?php include("template-parts/experience-card.php"); ?>            
-
+                        <?php
+                        get_template_part('template-parts/experience', 'card');
+                        // get_template_part('template-parts/experience', 'card', $experiencesCards[1]);
+                        ?>
                     </div>
                 </div>
-                <div class="row">
-                <div class="col-12">
-                <?php include("template-parts/experience-card.php"); ?>            
-                </div>
+                <div class="row my-1">
+                    <div class="col-12 ">
+                        <?php
+                        get_template_part('template-parts/experience', 'card');
+                        // get_template_part('template-parts/experience', 'card', $experiencesCards[0]);
+                        ?>
+                    </div>
                 </div>
             </div>
-
-            <?php
-            // include("template-parts/experience-card.php");
-            // if ( have_posts() ) :
-            //     while ( have_posts() ) : the_post();
-            //      echo the_post();
-            //         get_template_part( 'template-parts/experience-card.php' );
-            //     endwhile;
-            // endif;
-             ?>
+        </div>
+        <div class="col-12 mt-4">
+            <p class="fw-bold fs-3 blue-5 text-center">
+                Visit our Experiences Blog
+            </p>
         </div>
     </div>
 
