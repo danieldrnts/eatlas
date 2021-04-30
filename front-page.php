@@ -22,8 +22,8 @@ get_header();
 ?>
 
 <div class="container-fluid px-0">
+    <!-- NOTE mobile landing -->
     <div class="row mx-0">
-        <!-- NOTE mobile landing -->
         <div class="col-sm-12 px-0">
             <div class="d-flex flex-column">
                 <p class="fs-1 blue-5 fw-bold text-center mt-4 airplane-svg">Explore</p>
