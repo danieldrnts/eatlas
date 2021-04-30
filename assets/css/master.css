@@ -316,5 +316,6 @@ textarea:focus {
 
 .custom-border {
   border: solid 3px var(--blue-3);
+  border-radius: 4% !important;
 }
 /* Builder card */
