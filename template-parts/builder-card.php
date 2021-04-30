@@ -5,8 +5,8 @@
 
 ?>
 
-<div class="container-fluid h-100 flex-grow-1">
-<div class="card h-100" style="width: 18rem;">
+<div class="container-fluid h-100 flex-grow-1 d-flex flex-column justify-content-center">
+<div class="card h-100 custom-border" style="width: 18rem;">
   <div class="card-body">
       <div class="rounded-circle bg-warning d-flex flex-row justify-content-center mb-3">
       <i style="font-size: 10em;" class="bi bi-person-circle"></i>

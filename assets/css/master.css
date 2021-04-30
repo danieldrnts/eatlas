@@ -311,3 +311,10 @@ textarea:focus {
   }
 }
 /* Apply card form */
+
+/* Builder card */
+
+.custom-border {
+  border: solid 3px var(--blue-3);
+}
+/* Builder card */
