@@ -90,7 +90,7 @@ get_header();
                                             <span class="blue-5 my-2 under-line-blue" style="width: max-content !important;">Join today!</span>
                                         </div>
                                         <div class="app-contact">
-                                            <img style="height:3em" src="/Media/Icons/gpt-logo.png" alt="form-logo" />
+                                            <!-- <img style="height:3em" src="/Media/Icons/gpt-logo.png" alt="form-logo" /> -->
                                         </div>
                                     </div>
                                     <div class="screen-body-item">

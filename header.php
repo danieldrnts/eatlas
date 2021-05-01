@@ -31,15 +31,15 @@
 				<!-- Navbar -->
 				<nav class="navbar navbar-expand-lg navbar-light bg-blue-3">
 					<div class="container-fluid px-0 py-2">
-						<a class="navbar-brand" href="#">
+						<a class="ps-md-5 navbar-brand fw-bold blue-5" href="#">
 							<img src="https://play-lh.googleusercontent.com/IlyM8GsSE1CNeivAVhEEyFvRy9L_XvRGANeRdZBHYPu_tqFf3SK3rMietjfpZkxPxHDh=s180-rw" alt="" width="30" height="24" class="d-inline-block align-text-top">
-							eAtlas
+							<span class="blue-5">eAtlas</span> 
 						</a>
 						<button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 
-						<div class="collapse navbar-collapse bg-blue-5 mt-2" id="navbarText">
+						<div class="collapse navbar-collapse custom-bg-5-mobile mt-2" id="navbarText">
 
 
 							<!-- NOTE desktop MENU -->
@@ -48,14 +48,14 @@
 								array(
 									'theme_location' => 'main-menu',
 									'menu_class' => 'd-none d-sm-flex navbar-nav mx-auto mb-2 mb-lg-0',
-									'container_class' => 'container d-flex flex-row justify-content-center bg-warning ',
+									'container_class' => 'container d-flex flex-row justify-content-center desktop-child-custom',
 								)
 							);
 
 
 							?>
 
-							<p class="d-sm-none h1 text-white fw-bold mt-3 mb-4 ms-4">
+							<p class="d-sm-none h1 text-white fw-bold mt-3 mb-4 ms-4 ">
 								<span class="under-line">More to see</span>
 							</p>
 
@@ -71,7 +71,7 @@
 							?>
 
 							<!-- MOBILE SOCIAL ICONS -->
-							<div class="d-sm-none navbar-text ">
+							<div class="d-sm-none navbar-text custom-bg-5-mobile">
 								<p class="text-white fw-light fs-5 text-center"> Our social media</p>
 								<ul class="d-flex flex-row justify-content-center ps-0" style="list-style-type: none">
 									<li class="mx-2">

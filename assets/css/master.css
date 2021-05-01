@@ -83,6 +83,22 @@ h1 {
 
 /* HEADER styles mobile */
 
+/* HEADER styles desktop */
+.desktop-child-custom ul li a {
+  font-size: x-large;
+  font-weight: bold;
+  color: var(--blue-5);
+  text-decoration: none;
+  border-bottom: 5px solid var(--blue-5);
+  padding-bottom: 5px;
+  /* margin: 1.2em 0 1.2em 0; */
+}
+.desktop-child-custom ul li {
+  /* margin-top: 1em; */
+  margin: 0 2em 0 2em;
+}
+/* HEADER styles desktop */
+
 /* Apply card form */
 input {
   font-weight: 700;
@@ -319,3 +335,31 @@ textarea:focus {
   border-radius: 4% !important;
 }
 /* Builder card */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .custom-bg-5-mobile {
+    background-color: var(--blue-5);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .desktop-position {
+    position: absolute;
+    right: 0;
+    width: 30em !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
