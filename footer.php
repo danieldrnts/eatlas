@@ -14,49 +14,94 @@
 
 <!-- NOTE footer -->
 
-	<div class="container-fluid bg-blue-5 py-3">
-		<div class="row">
-			<div class="col-12">
-				<p class="text-white fw-normal fs-2 text-center">Our social media</p>
-			</div>
-			<div class="col-12">
-			<ul class="d-flex flex-row justify-content-center ps-0" style="list-style-type: none">
-									<li class="mx-2">
-										<a href="#">
-											<i class="bi bi-youtube text-white" style="font-size: 1.5rem;"></i>
-										</a>
-									</li>
-									<li class="mx-2">
-										<a href="#">
-											<i class="bi bi-twitter text-white" style="font-size: 1.5rem;"></i>
-										</a>
-									</li>
-									<li class="mx-2">
-										<a href="#">
-											<i class="bi bi-instagram text-white" style="font-size: 1.5rem;"></i>
-										</a>
-									</li>
-									<li class="mx-2">
-										<a href="#">
-											<i class="bi bi-facebook text-white" style="font-size: 1.5rem;"></i>
-										</a>
-									</li>
-								</ul>
-			</div>
-			<div class="col-12">
-				<div class="d-flex flex-row justify-content-center align-content-center">
-					<p class="fw-bolder fs-1 text-white text-center mx-3">
-						eAtlas
-					</p>
-					<i class="bi bi-youtube text-white align-middle" style="font-size: 1.5rem;"></i>
-				</div>
-				<div>
-					<small class="text-white text-center">Lorem ipsum dolor, sit amet consectetur adipisicing</small>
-				</div>
-
+<!-- NOTE mobile -->
+<div class=" container-fluid bg-blue-5 py-3">
+	<div class="row d-md-flex flex-md-row-reverse">
+		<div class="col-12 col-md-4 my-md-auto">
+			<p class="text-white fw-normal fs-2 text-center">Our social media</p>
+			<ul class="d-none d-md-flex flex-row justify-content-center ps-0" style="list-style-type: none">
+				<li class="mx-2">
+					<a href="#">
+						<i class="bi bi-youtube text-white" style="font-size: 1.5rem;"></i>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#">
+						<i class="bi bi-twitter text-white" style="font-size: 1.5rem;"></i>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#">
+						<i class="bi bi-instagram text-white" style="font-size: 1.5rem;"></i>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#">
+						<i class="bi bi-facebook text-white" style="font-size: 1.5rem;"></i>
+					</a>
+				</li>
+			</ul>
+			<div class="d-none d-md-block text-white text-center">
+				<p class="fw-bold">Contact: +99 (99) 99 99 99 </p>
 			</div>
 		</div>
+		<div class="col-12 col-md-4">
+			<div class="row d-none d-md-flex text-white m-5">
+				<div class="col-6 ">
+					<ul>
+						<li>Our product</li>
+						<li>Some link 1</li>
+						<li>Some link 2</li>
+						<li>Some link 3</li>
+					</ul>
+				</div>
+				<div class="col-6">
+					<ul>
+						<li>Our product</li>
+						<li>Some link 1</li>
+						<li>Some link 2</li>
+						<li>Some link 3</li>
+					</ul>
+				</div>
+			</div>
+			<ul class="d-flex flex-row justify-content-center ps-0 d-md-none" style="list-style-type: none">
+				<li class="mx-2">
+					<a href="#">
+						<i class="bi bi-youtube text-white" style="font-size: 1.5rem;"></i>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#">
+						<i class="bi bi-twitter text-white" style="font-size: 1.5rem;"></i>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#">
+						<i class="bi bi-instagram text-white" style="font-size: 1.5rem;"></i>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#">
+						<i class="bi bi-facebook text-white" style="font-size: 1.5rem;"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-12 col-md-4 my-md-auto">
+			<div class="d-flex flex-row justify-content-center align-content-center ">
+				<p class="fw-bolder fs-1 text-white text-center mx-3">
+					eAtlas
+				</p>
+				<i class="bi bi-youtube text-white align-middle" style="font-size: 1.5rem;"></i>
+			</div>
+			<div class="text-center">
+				<small class="text-white text-center">Lorem ipsum dolor, sit amet consectetur adipisicing</small>
+			</div>
+
+		</div>
 	</div>
+</div>
+
 
 <!-- NOTE footer -->
 
