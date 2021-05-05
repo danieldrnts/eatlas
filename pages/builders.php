@@ -32,9 +32,9 @@ get_header();
     </div>
 
     <!-- NOTE meet video -->
-    <div class="row mx-0 bg-blue-1" style="height: 100vh;">
+    <div class="row mx-0 " style="height: 100vh;">
         <!-- NOTE mobile video -->
-        <div class="container d-md-none">
+        <div class="container d-md-none bg-blue-1">
             <div class="row col-12 py-4">
                 <p class="fw-normal fs-1 text-center blue-5">Builders, <br> <span class="fw-bolder">Whoa!</span> the world </p>
                 <p class="fw-lighter fs-5 text-center blue-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quidem ullam odit enim quas rerum libero rem </p>
@@ -44,8 +44,9 @@ get_header();
                     <i style="height: 3em;" class="bi bi-play-circle-fill position-absolute top-100 start-50"></i>
                 </video>
             </div>
-            <div class="row col-12 m-0 mt-4">
-                <p class="fw-normal fs-1 py-2 text-center blue-5">Get eAtlas</p>
+            <div class="row col-12 m-0 mt-3">
+                <p class="fw-bold fs-1 m-0 text-center blue-5">Get eAtlas</p>
+                <p class="fw-light fs-3 text-center blue-5 m-2">Available on very device</p>
                 <div class="d-flex flex-row  justify-content-center mx-auto">
                     <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
                     <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
@@ -55,14 +56,14 @@ get_header();
 
         <!-- NOTE desktop  video -->
         <div class="d-none d-md-block container">
-            <div class="row">
-                <div class="col-6">
-                    <div class="row">
+            <div class="row h-100">
+                <div class="col-6 bg-blue-3">
+                    <div class="row h-100">
                         <div class="col-12">
                             <p class="d-none d-md-block text-white blue-5 fw-bold fs-1 text-center mt-5">Become a Builder,</p>
                         </div>
-                        <div class="col-12 bg-blue-5">
-                            <video controls style="height: 3em" src="<?php echo get_bloginfo('template_url') ?>/assets/videos/meetVideo.mp4">
+                        <div class="col-12  d-flex flex-row justify-content-center">
+                            <video controls class="video-meet-bluiders " src="<?php echo get_bloginfo('template_url') ?>/assets/videos/meetVideo.mp4">
                             </video>
                         </div>
                         <div class="col-12">
@@ -70,22 +71,51 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="col-6"></div>
+                <div class="col-6 bg-white px-5 d-flex flex-column justify-content-around">
+                    <div>
+                        <p class="d-none d-md-block blue-5 blue-5 fw-normal fs-1 text-center mt-5">Builders, <br> <span class="fw-bolder">Whoa!</span> the world</p>
+                        <p class="d-none d-md-block blue-5 blue-5 fw-normal fs-5 text-center mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, dolores officia voluptatibus unde ,</p>
+                    </div>
+                    <p class="d-none d-md-block blue-5 blue-5 fw-light fs-6 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, possimus assumenda voluptatem expedita vel laudantium quos a nemo itaque impedit? Blanditiis minus aliquam repellendus provident rerum perspiciatis veniam asperiores fugiat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ratione expedita provident tempora officiis quod architecto atque accusamus ipsum animi, dolore nihil, quo temporibus doloribus rerum, nam vitae facilis minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, eum possimus. Fugit a cupiditate quae, obcaecati, nemo molestiae repudiandae iure temporibus dicta esse autem commodi corrupti adipisci laboriosam, optio magni? <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quas unde ab vel est facere quasi alias corporis. Deleniti deserunt sapiente non iusto tempora voluptas quas autem quam, maiores amet.</p>
+                </div>
             </div>
         </div>
 
     </div>
 
     <!-- NOTE Be a builder -->
-    <div class="col-sm-12 px-0" style="min-height: 100vh;">
-        <div class="d-flex flex-column">
-            <p class="fs-1 blue-5 fw-bold ms-5 text-start mt-3 airplane-svg">Be a Builder <br>
-                <span class="fw-light">share and create</span>
-            </p>
-            <!-- <img style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/airplane.svg" ?> -->
+    <div class="row px-0" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row d-md-flex flex-md-row-reverse h-100">
+                <div class="col-12 col-md-6 ">
+                    <div class="d-flex flex-column flex-grow-1  h-100 justify-content-center">
+                        <p class="fs-1 blue-5 fw-bold ms-5 text-start  mt-3 airplane-svg mb-4">Be a Builder <br>
+                            <span class="fw-light  d-none d-md-block">share and create your <span class="fw-bold">Experiences</span> </span>
+                            <span class="fw-light d-md-none">share and create</span>
+                        </p>
+                        <div class="mx-auto d-none d-md-block btn btn-outline-info shadow " style="width: 12em">Become a builder</div>
+                        <!-- <img style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/airplane.svg" ?> -->
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="custom-height-builder-h-100 d-md-flex flex-md-column justify-content-center">
+                        <p class="d-none d-md-block blue-5 fw-bold fs-1 text-center">What is a Builder?</p>
+                        <div class="d-none d-md-block mx-auto">
+                            <blockquote class="blockquote">
+                                <p>A well-known quote, contained in a blockquote element.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </figcaption>
+                        </div>
+                        <p style="font-weight: lighter;" class="fs-6 blue-5 text-center my-3 mx-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad iusto perferendis in iure repellat alias non minima sunt perspiciatis </p>
+                        <p style="font-weight: lighter;" class="d-none d-md-block fs-6 blue-5 text-center my-3 mx-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad iusto perferendis in iure repellat alias non minima sunt perspiciatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi, dolore rem sapiente dolor ipsa saepe explicabo eos fugiat consequatur vero distinctio exercitationem vitae praesentium eveniet illum esse aliquid atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis in et labore vitae, optio pariatur iure dolores velit nihil, numquam veritatis doloribus eaque beatae. Nihil dicta rerum placeat officiis repellendus. </p>
+                        <img class="guy-with-ball-svg mt-5" src="<?php echo get_bloginfo('template_url') ?>/assets/images/guy-with-baseball.svg" alt="home landing ">
+                    </div>
+                </div>
+            </div>
         </div>
-        <p style="font-weight: lighter;" class="fs-6 blue-5 text-center my-3 mx-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad iusto perferendis in iure repellat alias non minima sunt perspiciatis </p>
-        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/guy-with-baseball.svg" alt="home landing ">
+
     </div>
 
     <!-- NOTE Download App -->

@@ -348,6 +348,15 @@ textarea:focus {
   .hand-and-phone-svg {
     height: 19em;
   }
+  .video-meet-bluiders {
+    height: 19em;
+  }
+  .guy-with-ball-svg {
+    height: 19em;
+  }
+  .custom-height-builder-h-100 {
+    height: 100%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -365,7 +374,7 @@ textarea:focus {
     height: 19em;
   }
   .radius-md-custom {
-    background-color: var(--blue-3);
+    background-color: var(--blue-4);
     border-top-left-radius: 45%;
     border-bottom-left-radius: 55%;
   }
@@ -374,6 +383,9 @@ textarea:focus {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1400px) {
   .hand-and-phone-svg {
+    height: 28em;
+  }
+  .video-meet-bluiders {
     height: 28em;
   }
 }
