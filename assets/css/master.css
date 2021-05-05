@@ -361,6 +361,14 @@ textarea:focus {
     right: 0;
     width: 30em !important;
   }
+  .hand-and-phone-svg {
+    height: 19em;
+  }
+  .radius-md-custom {
+    background-color: var(--blue-3);
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 55%;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
