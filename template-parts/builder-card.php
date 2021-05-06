@@ -6,12 +6,12 @@
 
 ?>
 
-<div class="container-fluid h-100 flex-grow-1 d-flex flex-column justify-content-center">
+<div class="container-fluid h-100 flex-grow-1 d-flex flex-column justify-content-center ">
       <div class="card h-100 custom-border " style="width: 18rem;" >
       <!-- <div style="height: 10em; width: 100%" class="position-absolute bg-warning ">
       
       </div> -->
-            <div class="card-body" style="z-index: 10;">
+            <div class="card-body shadow" style="z-index: 10;">
                   <div style="height: 10em;" class=" d-flex flex-row justify-content-center mb-1">
                         <i style="font-size: 7em;" class="bi bi-person-circle"></i>
                   </div>

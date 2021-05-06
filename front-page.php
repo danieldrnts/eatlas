@@ -87,7 +87,7 @@ get_header();
     <div class="row mx-0 bg-blue-1" style="min-height: 100vh;">
         <div class="container-fluid p-0 m-0">
             <div class="row pt-3 bg-blue-2">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 p-0">
                     <p class="fw-bold fs-1  text-center  text-md-start ms-md-5 blue-5">Consumers</p>
                     <p class="fw-normal fs-5 text-center  text-md-start ms-md-5 blue-5">Lorem ipsum dolor sit amet</p>
                     <p class="fw-light fs-6 text-center  text-md-start ms-md-5 text-break mx-3 blue-5  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, consequuntur quasi accusantium ad reiciendis deleniti, quas consectetur aliquid similique excepturi, id itaque autem eum commodi sunt praesentium. Dolor, ullam aspernatur!</p>
@@ -98,7 +98,7 @@ get_header();
                         </button>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 p-0">
                     <img class="img-fluid d-none d-md-block " src="<?php echo get_bloginfo('template_url') ?>/assets/images/consumers.svg" alt="consumers">
                     <img class="img-fluid d-md-none" src="<?php echo get_bloginfo('template_url') ?>/assets/images/womanandgirl.svg" alt="womanandgirl">
                 </div>
@@ -116,7 +116,7 @@ get_header();
                         </button>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 p-0">
                     <div class="d-flex flex-row-reverse">
                         <!-- <svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="-1200 0 3121 2543">
                             <defs>
@@ -177,7 +177,7 @@ get_header();
                         <img class="img-fluid hand-and-phone-svg" src="<?php echo get_bloginfo('template_url') ?>/assets/images/hand-and-phone.svg" alt="">
                     </div>
                 </div>
-                <div class=" d-none d-md-block col-12 col-md-6 ">
+                <div class=" d-none d-md-block col-12 col-md-6 p-0">
                     <p class="fw-bold fs-1  text-center text-white">Builders</p>
                     <p class="fw-normal fs-5 text-center text-white">Lorem ipsum dolor sit amet</p>
                     <p class="fw-light fs-6 text-center text-break mx-3 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, consequuntur quasi accusantium ad reiciendis deleniti, quas consectetur aliquid similique excepturi, id itaque autem eum commodi sunt praesentium. Dolor, ullam aspernatur!</p>

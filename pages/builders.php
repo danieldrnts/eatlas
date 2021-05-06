@@ -108,8 +108,7 @@ get_header();
                                 Someone famous in <cite title="Source Title">Source Title</cite>
                             </figcaption>
                         </div>
-                        <p style="font-weight: lighter;" class="fs-6 blue-5 text-center my-3 mx-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad iusto perferendis in iure repellat alias non minima sunt perspiciatis </p>
-                        <p style="font-weight: lighter;" class="d-none d-md-block fs-6 blue-5 text-center my-3 mx-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad iusto perferendis in iure repellat alias non minima sunt perspiciatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi, dolore rem sapiente dolor ipsa saepe explicabo eos fugiat consequatur vero distinctio exercitationem vitae praesentium eveniet illum esse aliquid atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis in et labore vitae, optio pariatur iure dolores velit nihil, numquam veritatis doloribus eaque beatae. Nihil dicta rerum placeat officiis repellendus. </p>
+                        <p style="font-weight: lighter;" class="d-none d-md-block fs-6 blue-5 text-center my-3 mx-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad iusto perferendis in iure repellat alias non minima sunt perspiciatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi, dolore rem sapiente dolor ipsa saepe explicabo eos fugiat consequatur vero distinctio exercitationem vitae praesentium eveniet illum esse aliquid atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis in et labore vitae, optio pariatur iure dolores velit nihil, numquam veritatis doloribus eaque beatae. Nihil dicta rerum placeat officiis repellendus. </p>
                         <img class="guy-with-ball-svg mt-5" src="<?php echo get_bloginfo('template_url') ?>/assets/images/guy-with-baseball.svg" alt="home landing ">
                     </div>
                 </div>
@@ -136,14 +135,15 @@ get_header();
     </div>
 
     <!-- NOTE apply builder form MOBILE & DESKTOP -->
-    <div class="row m-0 p-0 mt-3 bg-warning" style="min-height: 100vh;">
+    <div class="row m-0 p-0 mt-3" style="min-height: 100vh;">
         <div class="col-12 col-md-6 d-md-flex flex-md-column justify-content-center">
-            <p class="fw-bold fs-3 blue-5 text-center">
+            <p class="fw-bold fs-1 blue-5 text-center">
                 Become a Builder today!
             </p>
-            <div class="d-none d-md-block">
+            <div class="d-none d-md-block mx-auto px-5">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque tempora sit, voluptate, vitae magni inventore molestias amet dignissimos beatae consequatur omnis totam quisquam corporis blanditiis sequi exercitationem aliquid ipsa?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus mollitia, distinctio eveniet soluta sint voluptatum? Ab, veritatis quod amet aperiam cumque reiciendis. Porro accusamus alias adipisci placeat at a perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo corporis veritatis molestiae ut natus accusamus hic, doloribus, illum molestias sed, cumque officiis sequi ratione adipisci eaque fugiat excepturi odit!</p>
+                <img class="mt-4" style="height: 12em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/details.svg" alt="details-badge">
             </div>
         </div>
         <div class="col-12 col-md-6 d-md-flex flex-md-column justify-content-center">
@@ -194,8 +194,8 @@ get_header();
         </div>
     </div>
 
-    <!-- NOTE Meet Builders  -->
-    <div class="row m-0 p-0 bg-blue-2 mt-3 d-flex flex-column" style="min-height: 100vh;">
+    <!-- NOTE Meet Builders MOBILE -->
+    <div class="row m-0 p-0 bg-blue-2 mt-3 d-flex flex-column d-md-none" style="min-height: 100vh;">
         <div class="col-12 mt-3">
             <p class="fw-bold fs-1 blue-5 text-center ">
                 Meet some of <br> our Builders
@@ -231,6 +231,60 @@ get_header();
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+        </div>
+    </div>
+
+    <!-- NOTE Meet Builders Desktop -->
+    <div class="row m-0 p-0 bg-blue-3" style="min-height: 100vh;">
+        <div class="col-4 d-md-flex flex-md-column justify-content-center">
+            <p class="fw-normal fs-1 blue-5 text-center align-middle">
+                Meet some of our <span class="fw-bold">Builders</span>
+            </p>
+            <div class="d-none d-md-block blue-5 px-5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque tempora sit, voluptate, vitae magni inventore molestias amet dignissimos beatae consequatur omnis totam quisquam corporis blanditiis sequi exercitationem aliquid ipsa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus mollitia, distinctio eveniet soluta sint voluptatum? Ab, veritatis quod amet aperiam cumque reiciendis. Porro accusamus alias adipisci placeat at a perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo corporis veritatis molestiae ut natus accusamus hic, doloribus, illum molestias sed, cumque officiis sequi ratione adipisci eaque fugiat excepturi odit!</p>
+                
+            </div>
+
+        </div>
+        <div class="col-8 ">
+            <div class="row p-5">
+                <div class="col-4">
+                    <?php get_template_part('template-parts/builder', 'card'); ?>
+                </div>
+                <div class="col-4">
+                    <?php get_template_part('template-parts/builder', 'card'); ?>
+                </div>
+                <div class="col-4">
+                    <?php get_template_part('template-parts/builder', 'card'); ?>
+                </div>
+            </div>
+            <div class="row p-5">
+            <div class="col-2">
+            </div>
+                <div class="col-4 ">
+                    <?php get_template_part('template-parts/builder', 'card'); ?>
+                </div>
+                <div class="col-6 ">
+                    <?php get_template_part('template-parts/builder', 'card'); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NOTE Get eAtlas desktop -->
+    <div class="d-none d-md-flex row m-0 p-0 bg-blue-1 " style="height:90vh">
+        <div class="col-6 h-100 d-flex flex-column justify-content-center">
+            <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
+            <p class="text-center blue-4 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptate error exercitationem dolor aliquid, illum, sed, placeat et earum tenetur facilis voluptas aperiam recusandae! Magni vero provident vel fuga laboriosam.</p>
+            <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
+            <div class="d-flex flex-row  justify-content-center mx-auto mt-2">
+                <img class="mx-5 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
+                <img class="mx-5 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+            </div>
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/world-map.svg" alt="">
         </div>
     </div>
 
