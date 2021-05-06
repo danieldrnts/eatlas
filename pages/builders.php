@@ -83,7 +83,7 @@ get_header();
 
     </div>
 
-    <!-- NOTE Be a builder -->
+    <!-- NOTE Be a builder DEsktop and mobile -->
     <div class="row px-0" style="min-height: 100vh;">
         <div class="container">
             <div class="row d-md-flex flex-md-row-reverse h-100">
@@ -118,8 +118,8 @@ get_header();
 
     </div>
 
-    <!-- NOTE Download App -->
-    <div class="row m-0 p-0 bg-blue-2 d-flex flex-column" style="min-height: 100vh;">
+    <!-- NOTE Download App Mobile -->
+    <div class="row m-0 p-0 bg-blue-2 d-flex d-md-none flex-column" style="min-height: 100vh;">
         <div class="col-12  my-4">
             <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
             <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
@@ -135,47 +135,53 @@ get_header();
         </div>
     </div>
 
-    <!-- NOTE apply builder form mobile -->
-    <div class="row m-0 p-0 mt-3" style="min-height: 100vh;">
-        <div class="col-12">
+    <!-- NOTE apply builder form MOBILE & DESKTOP -->
+    <div class="row m-0 p-0 mt-3 bg-warning" style="min-height: 100vh;">
+        <div class="col-12 col-md-6 d-md-flex flex-md-column justify-content-center">
             <p class="fw-bold fs-3 blue-5 text-center">
                 Become a Builder today!
             </p>
+            <div class="d-none d-md-block">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque tempora sit, voluptate, vitae magni inventore molestias amet dignissimos beatae consequatur omnis totam quisquam corporis blanditiis sequi exercitationem aliquid ipsa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus mollitia, distinctio eveniet soluta sint voluptatum? Ab, veritatis quod amet aperiam cumque reiciendis. Porro accusamus alias adipisci placeat at a perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo corporis veritatis molestiae ut natus accusamus hic, doloribus, illum molestias sed, cumque officiis sequi ratione adipisci eaque fugiat excepturi odit!</p>
+            </div>
         </div>
-        <div id="contacto" class="custom-height mb-4 container-fluid" fluid>
-            <div class="row">
-                <div class="col-12" class>
-                    <div class="background d-flex flex-row justify-content-end">
-                        <div class="container-2">
-                            <div class="screen bg-blue-2">
-                                <div class="screen-body">
-                                    <div class="screen-body-item left">
-                                        <div class="app-title">
-                                            <span class="mb-2 blue-5 text-center fw-bold">Apply to become a Builder</span>
-                                            <span class="blue-5 my-2 under-line-blue" style="width: max-content !important;">Join today!</span>
+        <div class="col-12 col-md-6 d-md-flex flex-md-column justify-content-center">
+            <div id="contacto" class="custom-height mb-4 container-fluid" fluid>
+                <div class="row">
+                    <div class="col-12" class>
+                        <div class="background d-flex flex-row justify-content-end">
+                            <div class="container-2">
+                                <div class="screen bg-blue-2">
+                                    <div class="screen-body">
+                                        <div class="screen-body-item left">
+                                            <div class="app-title">
+                                                <span class="mb-2 blue-5 text-center fw-bold">Apply to become a Builder</span>
+                                                <span class="blue-5 my-2 under-line-blue" style="width: max-content !important;">Join today!</span>
+                                            </div>
+                                            <div class="app-contact">
+                                                <!-- <img style="height:3em" src="/Media/Icons/gpt-logo.png" alt="form-logo" /> -->
+                                            </div>
                                         </div>
-                                        <div class="app-contact">
-                                            <!-- <img style="height:3em" src="/Media/Icons/gpt-logo.png" alt="form-logo" /> -->
-                                        </div>
-                                    </div>
-                                    <div class="screen-body-item">
-                                        <div class="app-form">
-                                            <div class="app-form-group">
-                                                <input class="app-form-control" placeholder="Name" />
-                                            </div>
-                                            <div class="app-form-group">
-                                                <input class="app-form-control" placeholder="Email" />
-                                            </div>
-                                            <div class="app-form-group">
-                                                <input class="app-form-control" placeholder="City" />
-                                            </div>
-                                            <div class="app-form-group message">
-                                                <textarea type="textarea" class="app-form-control" placeholder="Message"></textarea>
-                                            </div>
-                                            <div class="app-form-group buttons">
-                                                <button class="btn bg-blue-4 rounded shadow">
-                                                    <span class="fw-bold text-white fs-2">SEND</span>
-                                                </button>
+                                        <div class="screen-body-item">
+                                            <div class="app-form">
+                                                <div class="app-form-group">
+                                                    <input class="app-form-control" placeholder="Name" />
+                                                </div>
+                                                <div class="app-form-group">
+                                                    <input class="app-form-control" placeholder="Email" />
+                                                </div>
+                                                <div class="app-form-group">
+                                                    <input class="app-form-control" placeholder="City" />
+                                                </div>
+                                                <div class="app-form-group message">
+                                                    <textarea type="textarea" class="app-form-control" placeholder="Message"></textarea>
+                                                </div>
+                                                <div class="app-form-group buttons">
+                                                    <button class="btn bg-blue-4 rounded shadow">
+                                                        <span class="fw-bold text-white fs-2">SEND</span>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
