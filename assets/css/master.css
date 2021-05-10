@@ -341,6 +341,9 @@ textarea:focus {
   .custom-bg-5-mobile {
     background-color: var(--blue-5);
   }
+  .custom-bg-2-mobile {
+    background-color: var(--blue-2);
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
