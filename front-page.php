@@ -221,12 +221,11 @@ get_header();
         </div>
     </div>
 
-    <!-- NOTE landing desktop -->
+    <!-- NOTE Download app desktop-->
     <div class="d-none d-md-flex row m-0 p-0 " style="height:90vh">
-        <div class="col-6">
-            <p class="fs-1 blue-5 fw-bold text-center mt-4 airplane-svg">Get eAtlas</p>
-            <p class="fs-6 blue-5 fw-light text-center mt-4 mx-4 airplane-svg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, expedita cumque eligendi velit dicta saepe culpa harum ipsa iusto, magni et distinctio vero in laudantium molestiae numquam officia consequatur similique!</p>
+        <div class="col-6 h-100 d-flex-column justify-content-center ">
             <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
+            <p class="fs-6 blue-5 fw-light text-center mt-4 mx-4 airplane-svg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, expedita cumque eligendi velit dicta saepe culpa harum ipsa iusto, magni et distinctio vero in laudantium molestiae numquam officia consequatur similique!</p>
             <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
             <div class="d-flex flex-row  justify-content-center mx-auto mt-2">
                 <img class="mx-5 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
