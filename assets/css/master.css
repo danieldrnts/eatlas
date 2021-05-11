@@ -344,6 +344,10 @@ textarea:focus {
   .custom-bg-2-mobile {
     background-color: var(--blue-2);
   }
+  .consumers-experiences-around-the-globe-radius {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -380,6 +384,14 @@ textarea:focus {
     background-color: var(--blue-4);
     border-top-left-radius: 45%;
     border-bottom-left-radius: 55%;
+  }
+  .consumers-experiences-around-the-globe-radius {
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  .consumers-reviews-custom-border {
+    border-bottom-right-radius: 890px;
+    background-color: var(--blue-1);
   }
 }
 

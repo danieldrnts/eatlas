@@ -24,7 +24,7 @@ get_header();
 <div class="container-fluid px-0 ">
 
     <!-- NOTE landing desktop -->
-    <div class="d-none d-md-flex row m-0 p-0 " style="height:90vh">
+    <div class="d-none d-md-flex row m-0 p-0  bg-blue-2" style="height:90vh">
         <div class="col-6">
             <p class="fs-1 blue-5 fw-bold text-center mt-4 airplane-svg">Explore the world</p>
             <p class="fs-6 blue-5 fw-light text-center mt-4 mx-4 airplane-svg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, expedita cumque eligendi velit dicta saepe culpa harum ipsa iusto, magni et distinctio vero in laudantium molestiae numquam officia consequatur similique!</p>
@@ -81,7 +81,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
 
     <!-- NOTE Custumers / Builders -->
     <div class="row mx-0 bg-blue-1" style="min-height: 100vh;">
@@ -222,7 +222,7 @@ get_header();
     </div>
 
     <!-- NOTE Download app desktop-->
-    <div class="d-none d-md-flex row m-0 p-0 " style="height:90vh">
+    <div class="d-none d-md-flex row m-0 p-0 bg-blue-3" style="height:90vh">
         <div class="col-6 h-100 d-flex-column justify-content-center ">
             <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
             <p class="fs-6 blue-5 fw-light text-center mt-4 mx-4 airplane-svg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, expedita cumque eligendi velit dicta saepe culpa harum ipsa iusto, magni et distinctio vero in laudantium molestiae numquam officia consequatur similique!</p>
