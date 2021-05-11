@@ -46,7 +46,7 @@
         </div>
     </div>
 
-    <!-- NOTE Meet Builders MOBILE -->
+    <!-- NOTE some Experiences MOBILE -->
     <div class="row m-0 p-0 bg-blue-2 mt-3 d-flex flex-column d-md-none" style="min-height: 100vh;">
         <div class="col-12 mt-3">
             <p class="fw-bold fs-1 blue-5 text-center ">
