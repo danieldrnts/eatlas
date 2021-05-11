@@ -101,7 +101,8 @@ get_header();
                                 <div class="row">
                                     <div class="col-12 my-3">
                                         <div class="row">
-                                            <div class="col-12 bg-warning" style="height: 10em">
+                                        <p class="fw-bold fs-4 blue-5" data-bs-dismiss="modal">Return to the Blog</p>
+                                            <div class="col-12" style="height: 10em">
                                                       <?php get_template_part('template-parts/map', 'card'); ?>
                                             </div>
                                         </div>
