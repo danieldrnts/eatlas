@@ -88,22 +88,21 @@ get_header();
         <div class="col-12">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <!-- FIXME fix the width of the full screen modal -->
                 <div class="modal-dialog modal-fullscreen">
-                    <div class="modal-content">
+                    <div class="modal-content ">
                         <!-- <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div> -->
-                        <div class="modal-body">
-                            <div class="container">
+                        <div class="modal-body  p-0" style="width: auto;">
+                            <div class="container-fluid">
                                 <!-- NOTE MOBILE info -->
                                 <div class="row">
-                                    <div class="col-12">
+                                    <div class="col-12 my-3">
                                         <div class="row">
-                                            <div class="col-12">
-                                                <h1>MAP HERE</h1>
-                                         <?php get_template_part('template-parts/map', 'card'); ?>
-
+                                            <div class="col-12 bg-warning" style="height: 10em">
+                                                      <?php get_template_part('template-parts/map', 'card'); ?>
                                             </div>
                                         </div>
                                     </div>
