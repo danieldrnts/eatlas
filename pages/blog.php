@@ -6,7 +6,7 @@ get_header();
 
 <div class="container-fluid p-0 m-0">
     <!-- NOTE Landing mobile -->
-    <div class="row mx-0 d-flex flex-column d-md-flex flex-md-row custom-bg-2-mobile" style="min-height: 90vh;">
+    <div class="row mx-0 d-flex flex-column d-md-flex flex-md-row custom-bg-2-mobile d-md-none" style="min-height: 90vh;">
         <div class="col-sm-12 col-md-6 px-0">
             <div class="d-flex flex-column">
                 <p class="d-md-none fs-1 blue-5 fw-normal text-center m-0 mt-3 airplane-svg ">This blog </p>
@@ -27,6 +27,35 @@ get_header();
             <p class="d-md-none fs-4 blue-5 fw-light text-center my-3">Our Blog tells some of the most amazing stories</p>
             <img class="hand-and-phone-svg mx-md-auto position-absolute  bottom-0" src="<?php echo get_bloginfo('template_url') ?>/assets/images/blog-landing-mobile.svg" alt="home landing">
         </div>
+    </div>
+
+    <!-- NOTE Landing desktop -->
+    <div class="row mx-0 d-flex flex-column d-md-flex flex-md-row custom-bg-2-mobile" style="min-height: 90vh;">
+        <div class="col-12">
+            <p class=" fs-1 blue-5 fw-normal text-center m-0 mt-3  ">Read about our <br> <span class="fw-bolder">Experiences</span> </p>
+        </div>
+        <div class="col-12"></div>
+
+        <!-- <div class="col-sm-12 col-md-6 px-0">
+            <div class="d-flex flex-column">
+                <p class="d-md-none fs-1 blue-5 fw-normal text-center m-0 mt-3 airplane-svg ">This blog </p>
+                <p class="d-md-none fs-1 blue-5 fw-bold text-center  airplane-svg m-0">is for you</p>
+                <div class="d-none d-md-flex flex-md-column  mt-5">
+                    <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
+                    <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
+                    <div class="d-flex flex-row  justify-content-center mx-auto">
+                        <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
+                        <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 radius-md-custom position-relative flex-grow-1">
+            <p class="d-none d-md-block text-white blue-5 fw-bold fs-1 text-center mt-5">Live unique Experiences</p>
+            <p class="d-none d-md-block text-white blue-5 fw-bold fs-1 text-center">and share your <span class="fw-bold">Experiences</span> </p>
+            <p class="d-md-none fs-4 blue-5 fw-light text-center my-3">Our Blog tells some of the most amazing stories</p>
+            <img class="hand-and-phone-svg mx-md-auto position-absolute  bottom-0" src="<?php echo get_bloginfo('template_url') ?>/assets/images/blog-landing-mobile.svg" alt="home landing">
+        </div> -->
     </div>
 
     <!-- NOTE Download App Mobile -->
