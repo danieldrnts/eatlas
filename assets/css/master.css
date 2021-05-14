@@ -348,6 +348,9 @@ textarea:focus {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
+  .experience-info-map-custom-size {
+    height: 10em;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -393,6 +396,10 @@ textarea:focus {
     border-bottom-right-radius: 890px;
     background-color: var(--blue-1);
   }
+  .custom-blog-landing-border {
+    border-bottom-right-radius: 460px;
+    background-color: var(--blue-1);
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -402,6 +409,13 @@ textarea:focus {
   }
   .video-meet-bluiders {
     height: 28em;
+  }
+  .experience-info-map-custom-size {
+    height: 20em;
+  }
+  .border-radius-custom {
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
   }
 }
 

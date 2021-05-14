@@ -30,11 +30,28 @@ get_header();
     </div>
 
     <!-- NOTE Landing desktop -->
-    <div class="row mx-0 d-flex flex-column d-md-flex flex-md-row custom-bg-2-mobile" style="min-height: 90vh;">
-        <div class="col-12">
-            <p class=" fs-1 blue-5 fw-normal text-center m-0 mt-3  ">Read about our <br> <span class="fw-bolder">Experiences</span> </p>
+    <div class="row mx-0 d-flex flex-column d-md-flex flex-md-row custom-bg-2-mobile " style="min-height: 90vh;">
+        <div class="col-12 bg-blue-1">
+            <p class=" fs-1 blue-5 fw-normal text-center m-0 mt-1  ">Read about our <br> <span class="fw-bolder">Experiences</span> </p>
+            <p class=" fs-3 blue-5 fw-light text-center m-0 mt-3  ">Our Blog tells some of the most <br> <span class="fw-bold">amazing stories</span> </p>
         </div>
-        <div class="col-12"></div>
+        <div class="col-12 bg-blue-1">
+            <div class="row bg-blue-5">
+                <div class="col-6 bg-blue-1">
+                    <img class="mx-2" style="height: 13em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/consumers.svg" alt="google-badge">
+                </div>
+                <div class="col-6 custom-blog-landing-border">
+                    <div class="d-none d-md-flex flex-md-column">
+                        <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
+                        <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
+                        <div class="d-flex flex-row  justify-content-center mx-auto">
+                            <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                            <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- <div class="col-sm-12 col-md-6 px-0">
             <div class="d-flex flex-column">
@@ -44,7 +61,6 @@ get_header();
                     <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
                     <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
                     <div class="d-flex flex-row  justify-content-center mx-auto">
-                        <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
                         <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
                     </div>
                 </div>
@@ -56,6 +72,67 @@ get_header();
             <p class="d-md-none fs-4 blue-5 fw-light text-center my-3">Our Blog tells some of the most amazing stories</p>
             <img class="hand-and-phone-svg mx-md-auto position-absolute  bottom-0" src="<?php echo get_bloginfo('template_url') ?>/assets/images/blog-landing-mobile.svg" alt="home landing">
         </div> -->
+    </div>
+
+    <!-- NOTE This blog is for you DESKTOP -->
+    <div class="row mx-0 d-flex flex-column d-md-flex flex-md-row-reverse " style="min-height: 90vh;">
+        <div class="col-sm-12 col-md-6 px-0">
+            <div class="d-flex flex-column">
+                <p class="d-md-none fs-1 blue-5 fw-normal text-center m-0 mt-3 airplane-svg ">This blog </p>
+                <p class="d-md-none fs-1 blue-5 fw-bold text-center  airplane-svg m-0">is for you</p>
+                <div class="d-none d-md-flex flex-md-column  mt-5">
+                    <p class="fw-bold fs-5 blue-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam repellendus maiores odio! Itaque rem dolorem, facilis adipisci molestiae atque</p>
+                    <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/airplane.svg" alt="google-badge">
+                    <p class="fw-normal fs-6 blue-4 my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aliquam sit officia delectus explicabo nemo repellat natus labore harum beatae consequuntur voluptates culpa, error quam numquam, provident magnam repellendus sunt?</p>
+                    <p class="fw-normal fs-6 blue-4 my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aliquam sit officia delectus explicabo nemo repellat natus labore harum beatae consequuntur voluptates culpa, error quam numquam, provident magnam repellendus sunt?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 position-relative flex-grow-1">
+            <p class="d-none d-md-block blue-5 fw-normal fs-1 text-center mt-5">Live unique Experiences</p>
+            <p class="d-none d-md-block blue-5 fw-bold fs-1 text-center">and share your <span class="fw-bold">Experiences</span> </p>
+            <p class="d-md-none fs-4 blue-5 fw-light text-center my-3">Our Blog tells some of the most amazing stories</p>
+            <img class="hand-and-phone-svg mx-md-auto position-absolute  bottom-0" src="<?php echo get_bloginfo('template_url') ?>/assets/images/blog-landing-mobile.svg" alt="home landing">
+        </div>
+    </div>
+
+    <!-- NOTE SOME REVIEWS FROM OUR CONSUMERS desktop  -->
+    <div class="row m-0 p-0 bg-blue-3" style="min-height: 100vh;">
+        <div class="col-4 d-md-flex flex-md-column justify-content-center">
+            <p class="fw-normal fs-1 blue-5 text-center align-middle">
+                Meet some of our <span class="fw-bold">Builders</span>
+            </p>
+            <div class="d-none d-md-block blue-5 px-5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque tempora sit, voluptate, vitae magni inventore molestias amet dignissimos beatae consequatur omnis totam quisquam corporis blanditiis sequi exercitationem aliquid ipsa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus mollitia, distinctio eveniet soluta sint voluptatum? Ab, veritatis quod amet aperiam cumque reiciendis. Porro accusamus alias adipisci placeat at a perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo corporis veritatis molestiae ut natus accusamus hic, doloribus, illum molestias sed, cumque officiis sequi ratione adipisci eaque fugiat excepturi odit!</p>
+
+            </div>
+
+        </div>
+        <div class="col-8 ">
+            <div class="row p-5">
+                <div class="col-4" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                    <?php get_template_part('template-parts/builder', 'card'); ?>
+                </div>
+                <div class="col-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <?php get_template_part('template-parts/builder', 'card'); ?>
+                </div>
+                <div class="col-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <?php get_template_part('template-parts/builder', 'card'); ?>
+                </div>
+            </div>
+            <div class="row p-5">
+                <div class="col-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <?php get_template_part('template-parts/builder', 'card'); ?>
+                </div>
+                <div class="col-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <?php get_template_part('template-parts/builder', 'card'); ?>
+                </div>
+                <div class="col-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <?php get_template_part('template-parts/builder', 'card'); ?>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- NOTE Download App Mobile -->
@@ -113,11 +190,10 @@ get_header();
     </div>
 
     <!-- NOTE Experience Info -->
-    <div class="row m-0 p-0" >
+    <div class="row m-0 p-0">
         <div class="col-12">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <!-- FIXME fix the width of the full screen modal -->
                 <div class="modal-dialog modal-fullscreen">
                     <div class="modal-content ">
                         <!-- <div class="modal-header">
@@ -128,16 +204,29 @@ get_header();
                             <div class="container-fluid">
                                 <!-- NOTE MOBILE info -->
                                 <div class="row">
-                                    <div class="col-12 my-3">
-                                        <div class="row">
-                                        <p class="fw-bold fs-4 blue-5" data-bs-dismiss="modal">Return to the Blog</p>
-                                            <div class="col-12" style="height: 10em">
-                                                      <?php get_template_part('template-parts/map', 'card'); ?>
+                                    <div class="col-12 col-md-6 my-3">
+                                        <div class="row  p-5">
+                                            <p class="fw-bold fs-4 blue-5 d-md-none" data-bs-dismiss="modal">Return to the Blog</p>
+                                            <p class="fw-bold fs-2 blue-5 under-line-blue d-none d-md-block ">Experience Name</p>
+                                            <p class="fw-bold fs-5 blue-5 d-none d-md-block">City Name</p>
+                                            <div class="col-12 experience-info-map-custom-size my-4" >
+                                                <?php get_template_part('template-parts/map', 'card'); ?>
                                             </div>
+                                            <p class="fw-light my-3 fs-6 blue-5 d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, dignissimos nostrum quisquam enim rem consequuntur fugit odit, culpa pariatur aliquam tempore! Expedita ipsum voluptate atque magni suscipit, voluptatibus quam sapiente! <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, quod ipsa tempora facilis vero odio, sunt voluptas tempore perferendis ex inventore illum hic distinctio libero fugit dolorum eligendi, dolor est?</p>
+                                            <p class="fw-light my-3 fs-6 blue-5 d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, dignissimos nostrum quisquam enim rem consequuntur fugit odit, culpa pariatur aliquam tempore! Expedita ipsum voluptate atque magni suscipit, voluptatibus quam sapiente!</p>
+
                                         </div>
                                     </div>
-                                    <div class="col-12">
-                                         <?php get_template_part('template-parts/builder', 'card'); ?>
+                                    <div class="col-12 col-md-6 bg-blue-3 d-flex flex-column justify-content-center border-radius-custom ">
+                                        <div>
+                                                <p class="fw-bold fs-2 text-end me-3 text-white" data-bs-dismiss="modal">Return to the Blog</p>
+                                            <p class="fw-bold fs-2 text-white d-none d-md-block text-center">Builder Name</p>
+                                            <div class="">
+                                                <?php get_template_part('template-parts/builder', 'card'); ?>
+                                            </div>
+                                            <p class="fw-normal my-3 fs-6 blue-5 d-none d-md-block text-center mx-5 mt-3 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, dignissimos nostrum quisquam enim rem consequuntur fugit odit, culpa pariatur aliquam tempore! Expedita ipsum voluptate atque magni suscipit, voluptatibus quam sapiente!</p>
+                                            <p class="fw-normal my-3 fs-6 blue-5 d-none d-md-block text-center mx-5 mt-3 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, dignissimos nostrum quisquam enim rem consequuntur fugit odit, culpa pariatur aliquam tempore! Expedita ipsum voluptate atque magni suscipit, voluptatibus quam sapiente!</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
