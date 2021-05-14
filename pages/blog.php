@@ -30,7 +30,7 @@ get_header();
     </div>
 
     <!-- NOTE Landing desktop -->
-    <div class="row mx-0 d-flex flex-column d-md-flex flex-md-row custom-bg-2-mobile " style="min-height: 90vh;">
+    <div class="row mx-0 d-flex flex-column d-none d-md-flex flex-md-row custom-bg-2-mobile " style="min-height: 90vh;">
         <div class="col-12 bg-blue-1">
             <p class=" fs-1 blue-5 fw-normal text-center m-0 mt-1  ">Read about our <br> <span class="fw-bolder">Experiences</span> </p>
             <p class=" fs-3 blue-5 fw-light text-center m-0 mt-3  ">Our Blog tells some of the most <br> <span class="fw-bold">amazing stories</span> </p>
@@ -75,7 +75,7 @@ get_header();
     </div>
 
     <!-- NOTE This blog is for you DESKTOP -->
-    <div class="row mx-0 d-flex flex-column d-md-flex flex-md-row-reverse " style="min-height: 90vh;">
+    <div class="row mx-0 d-flex flex-column d-none d-md-flex flex-md-row-reverse " style="min-height: 90vh;">
         <div class="col-sm-12 col-md-6 px-0">
             <div class="d-flex flex-column">
                 <p class="d-md-none fs-1 blue-5 fw-normal text-center m-0 mt-3 airplane-svg ">This blog </p>
@@ -97,7 +97,7 @@ get_header();
     </div>
 
     <!-- NOTE SOME REVIEWS FROM OUR CONSUMERS desktop  -->
-    <div class="row m-0 p-0 bg-blue-3" style="min-height: 100vh;">
+    <div class="row m-0 p-0 bg-blue-3 d-none d-md-block" style="min-height: 100vh;">
         <div class="col-4 d-md-flex flex-md-column justify-content-center">
             <p class="fw-normal fs-1 blue-5 text-center align-middle">
                 Meet some of our <span class="fw-bold">Builders</span>
@@ -189,8 +189,8 @@ get_header();
         </div>
     </div>
 
-    <!-- NOTE Experience Info -->
-    <div class="row m-0 p-0">
+    <!-- NOTE Experience Info Desktop -->
+    <div class="row m-0 p-0 d-none d-md-flex">
         <div class="col-12">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -241,8 +241,8 @@ get_header();
         </div>
     </div>
 
-      <!-- NOTE Get eAtlas desktop -->
-      <div class="d-none d-md-flex row m-0 p-0 bg-blue-1 " style="height:90vh">
+    <!-- NOTE Get eAtlas desktop -->
+    <div class="d-none d-md-flex row m-0 p-0 bg-blue-1 " style="height:90vh">
         <div class="col-6 h-100 d-flex flex-column justify-content-center">
             <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
             <p class="text-center blue-4 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptate error exercitationem dolor aliquid, illum, sed, placeat et earum tenetur facilis voluptas aperiam recusandae! Magni vero provident vel fuga laboriosam.</p>
