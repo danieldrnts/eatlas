@@ -97,7 +97,7 @@ get_header();
     </div>
 
     <!-- NOTE SOME REVIEWS FROM OUR CONSUMERS desktop  -->
-    <div class="row m-0 p-0 bg-blue-3 d-none d-md-block" style="min-height: 100vh;">
+    <div class="row m-0 p-0 bg-blue-3 d-none d-md-flex" style="min-height: 100vh;">
         <div class="col-4 d-md-flex flex-md-column justify-content-center">
             <p class="fw-normal fs-1 blue-5 text-center align-middle">
                 Meet some of our <span class="fw-bold">Builders</span>

@@ -10,6 +10,11 @@ body {
   --blue-3: #aedcff;
   --blue-4: #7fc4fd;
   --blue-5: #2699fb;
+  /* Brian colors */
+  --b-pink: #ec406a;
+  --b-blue: #2b48d6;
+  --b-white: #ebebeb;
+  --b-yellow: #fbc85e;
 }
 
 .blue-1 {
@@ -42,6 +47,29 @@ body {
 }
 .bg-blue-5 {
   background-color: var(--blue-5);
+}
+
+/* NOTE Brian colors */
+.bg-b-pink {
+  background-color: var(--b-pink);
+}
+.bg-b-blue {
+  background-color: var(--b-blue);
+}
+.bg-b-white {
+  background-color: var(--b-white);
+}
+.bg-b-yellow {
+  background-color: var(--b-yellow);
+}
+.bg-b-blue-gradient {
+  background: rgb(130, 18, 190);
+  background: linear-gradient(
+    135deg,
+    rgba(130, 18, 190, 0.6811099439775911) 0%,
+    rgba(43, 72, 214, 1) 35%,
+    rgba(0, 212, 255, 0.6166841736694677) 100%
+  );
 }
 
 h1 {
@@ -134,7 +162,7 @@ input {
 .screen:after {
   content: "";
   display: block;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 20px;
   right: 20px;

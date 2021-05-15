@@ -6,34 +6,28 @@ get_header();
 
 <div class="container-fluid p-0 m-0">
     <!-- NOTE mobile & desktop landing -->
-    <div class="row mx-0 d-md-flex flex-md-row" style="height: 100vh;">
-        <div class="col-sm-12 col-md-6 px-0 bg-b-blue-gradient">
+    <div class="row mx-0 d-md-flex flex-md-row">
+        <div class="col-sm-12 col-md-6 px-0">
             <div class="d-flex flex-column">
                 <p class="d-md-none fs-1 blue-5 fw-bold text-center mt-3 airplane-svg">Become a</p>
                 <p class="d-md-none fs-1 blue-5 fw-bold text-center  airplane-svg"> Builder</p>
                 <div class="d-none d-md-flex flex-md-column  mt-5">
-                    <p class="fw-bold fs-1 pt-1 text-center text-white ">Be an eATLAS <br> Whoa!Guide</p>
-                    <div class="d-flex flex-column  justify-content-center mx-auto">
-                        <p class="text-white fw-bold fw-3">
-                            Start bulding mobile tours with no coding required.
-                        </p>
-                        <ul class="text-white">
-                        <li class="fw-light fs-5">Share your passions</li>
-                        <li class="fw-light fs-5">Build your audience</li>
-                        <li class="fw-light fs-5">Always on. Always earning</li>
-                        </ul>
+                    <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
+                    <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
+                    <div class="d-flex flex-row  justify-content-center mx-auto">
+                        <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
+                        <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
                     </div>
-                    <p class="text-white fw-bold fs-3 text-center">
-                            We made it easy. <span class="fst-italic">You make it amazing</span>
-                        </p>
                 </div>
+                <img class="mt-md-5" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/airplane.svg" ?>
             </div>
+
         </div>
-        <div class="col-sm-12 col-md-6 " style="background-image: url(<?php echo get_bloginfo('template_url') ?>/assets/images/builders-page/girl-laptop.jpg); background-image-repeat: no-repeat;  background-size: cover;">
-            <!-- <p class="d-none d-md-block text-white blue-5 fw-bold fs-1 text-center mt-5">Become a Builder,</p> -->
-            <!-- <p class="d-none d-md-block text-white blue-5 fw-bold fs-1 text-center">and share your <span class="fw-bold">Experiences</span> </p> -->
+        <div class="col-sm-12 col-md-6 radius-md-custom">
+            <p class="d-none d-md-block text-white blue-5 fw-bold fs-1 text-center mt-5">Become a Builder,</p>
+            <p class="d-none d-md-block text-white blue-5 fw-bold fs-1 text-center">and share your <span class="fw-bold">Experiences</span> </p>
             <p class="d-md-none fs-4 blue-5 fw-light text-center my-3">Create amazing Experiences today!</p>
-            <!-- <img class="hand-and-phone-svg mx-md-auto" src="<?php echo get_bloginfo('template_url') ?>/assets/images/hand-and-phone.svg" alt="home landing"> -->
+            <img class="hand-and-phone-svg mx-md-auto" src="<?php echo get_bloginfo('template_url') ?>/assets/images/hand-and-phone.svg" alt="home landing">
         </div>
     </div>
 
@@ -61,32 +55,62 @@ get_header();
         </div>
 
         <!-- NOTE desktop  video -->
-        <div class="d-none d-md-block container bg-b-white">
+        <div class="d-none d-md-block container">
             <div class="row h-100">
-                <div class="col-6 ">
+                <div class="col-6 bg-blue-3">
                     <div class="row h-100">
                         <div class="col-12">
+                            <p class="d-none d-md-block text-white blue-5 fw-bold fs-1 text-center mt-5">Become a Builder,</p>
                         </div>
                         <div class="col-12  d-flex flex-row justify-content-center">
-                            <img  class="img img-fluid rounded" src="<?php echo get_bloginfo('template_url') ?>/assets/images/builders-page/girl-laptop.jpg" alt="">
+                            <video controls class="video-meet-bluiders " src="<?php echo get_bloginfo('template_url') ?>/assets/videos/meetVideo.mp4">
+                            </video>
                         </div>
                         <div class="col-12">
-                            <!-- <p class="d-none d-md-block text-white blue-5 fw-light fs-6 text-center mt-5"> With amazing mobile tours & experiences you create with eAtlas</p> -->
-                            <!-- <p class="d-none d-md-block text-white blue-5 fw-light fs-6 text-center mt-5"> It's fast, fun and easy to share your passions with the world</p> -->
+                            <p class="d-none d-md-block text-white blue-5 fw-light fs-6 text-center mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur modi laudantium provident error, corrupti </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 px-5 d-flex flex-column text-dark justify-content-center">
+                <div class="col-6 bg-white px-5 d-flex flex-column justify-content-around">
                     <div>
-                        <p class="d-none d-md-block fw-bold fs-1 text-center ">Lets Whoa! the world</p>
+                        <p class="d-none d-md-block blue-5 blue-5 fw-normal fs-1 text-center mt-5">Builders, <br> <span class="fw-bolder">Whoa!</span> the world</p>
+                        <p class="d-none d-md-block blue-5 blue-5 fw-normal fs-5 text-center mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, dolores officia voluptatibus unde ,</p>
                     </div>
-                    <p class="d-none d-md-block  fw-normal fs-6 text-center "> With amazing mobile tours & experiences you create with eAtlas</p>
-                    <p class="d-none d-md-block  fw-normal fs-6 text-center "> It's fast, fun and easy to share your passions with the world</p>
-                    <p class="d-none d-md-block  fw-bold fs-6 text-center "> Make tours. Make memories. Make money</p>
-                    <div style="width: fit-content;" class="btn bg-b-pink rounded mx-auto my-2"><span class="fw-bold fs-4 text-white">
-                    Start now
-                    </span></div>
-                    <p  class="d-none d-md-block  fw-bold fs-6 text-center mx-auto my-2" style="border-bottom: 2px solid grey; padding-bottom: 10px; width: fit-content"> Sign up to learn more</p>
+                    <p class="d-none d-md-block blue-5 blue-5 fw-light fs-6 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, possimus assumenda voluptatem expedita vel laudantium quos a nemo itaque impedit? Blanditiis minus aliquam repellendus provident rerum perspiciatis veniam asperiores fugiat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ratione expedita provident tempora officiis quod architecto atque accusamus ipsum animi, dolore nihil, quo temporibus doloribus rerum, nam vitae facilis minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, eum possimus. Fugit a cupiditate quae, obcaecati, nemo molestiae repudiandae iure temporibus dicta esse autem commodi corrupti adipisci laboriosam, optio magni? <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quas unde ab vel est facere quasi alias corporis. Deleniti deserunt sapiente non iusto tempora voluptas quas autem quam, maiores amet.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NOTE Be a builder DEsktop and mobile -->
+    <div class="row px-0" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row d-md-flex flex-md-row-reverse h-100">
+                <div class="col-12 col-md-6 ">
+                    <div class="d-flex flex-column flex-grow-1  h-100 justify-content-center">
+                        <p class="fs-1 blue-5 fw-bold ms-5 text-start  mt-3 airplane-svg mb-4">Be a Builder <br>
+                            <span class="fw-light  d-none d-md-block">share and create your <span class="fw-bold">Experiences</span> </span>
+                            <span class="fw-light d-md-none">share and create</span>
+                        </p>
+                        <div class="mx-auto d-none d-md-block btn btn-outline-info shadow " style="width: 12em">Become a builder</div>
+                        <!-- <img style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/airplane.svg" ?> -->
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="custom-height-builder-h-100 d-md-flex flex-md-column justify-content-center">
+                        <p class="d-none d-md-block blue-5 fw-bold fs-1 text-center">What is a Builder?</p>
+                        <div class="d-none d-md-block mx-auto">
+                            <blockquote class="blockquote">
+                                <p>A well-known quote, contained in a blockquote element.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </figcaption>
+                        </div>
+                        <p style="font-weight: lighter;" class="d-none d-md-block fs-6 blue-5 text-center my-3 mx-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad iusto perferendis in iure repellat alias non minima sunt perspiciatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi, dolore rem sapiente dolor ipsa saepe explicabo eos fugiat consequatur vero distinctio exercitationem vitae praesentium eveniet illum esse aliquid atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis in et labore vitae, optio pariatur iure dolores velit nihil, numquam veritatis doloribus eaque beatae. Nihil dicta rerum placeat officiis repellendus. </p>
+                        <img class="guy-with-ball-svg mt-5" src="<?php echo get_bloginfo('template_url') ?>/assets/images/guy-with-baseball.svg" alt="home landing ">
+                    </div>
                 </div>
             </div>
         </div>
@@ -111,13 +135,10 @@ get_header();
     </div>
 
     <!-- NOTE apply builder form MOBILE & DESKTOP -->
-    <div class="row m-0 p-0 mt-3 bg-b-yellow" style="min-height: 100vh;">
-        <div class="col-12 col-md-6 d-md-flex flex-md-column justify-content-center text-dark">
-            <p class="fw-bold fs-1 text-center">
-                Start Whoa-ing the world
-            </p>
-            <p class="fw-normal fs-3 text-center">
-                Start Whoa-ing the world
+    <div class="row m-0 p-0 mt-3" style="min-height: 100vh;">
+        <div class="col-12 col-md-6 d-md-flex flex-md-column justify-content-center">
+            <p class="fw-bold fs-1 blue-5 text-center">
+                Become a Builder today!
             </p>
             <div class="d-none d-md-block mx-auto px-5">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque tempora sit, voluptate, vitae magni inventore molestias amet dignissimos beatae consequatur omnis totam quisquam corporis blanditiis sequi exercitationem aliquid ipsa?</p>
