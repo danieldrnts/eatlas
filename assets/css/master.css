@@ -456,3 +456,9 @@ textarea:focus {
   width: 100%;
   height: 100%;
 }
+
+.short-long-text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

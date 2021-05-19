@@ -81,7 +81,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 
     <!-- NOTE Custumers / Builders -->
     <div class="row mx-0 bg-blue-1" style="min-height: 100vh;">
@@ -293,87 +293,26 @@ get_header();
     </div>
     <!-- NOTE Some Experiences desktop -->
     <!-- TODO terminar la galleria -->
+    <?php
+
+    // posts araay
+    $posts = get_posts(array('numberposts' => 2 )); 
+    print_r($posts[0]);
+     ?>
     <div class="row m-0 p-0 d-none d-md-flex" style="min-height: 100vh;">
         <div class="col-8 bg-blue-1" style="min-height: 100%;">
-            <div class="container-fluid b " style="min-height: 100%;">
-
-                <div class="row m-1 bg-blue-2" style="min-height: 20%;">
-                    <div class="col-5">
-                        <h1>1</h1>
-                        <!-- <div class="card bg-dark text-white">
-                            <img src="https://source.unsplash.com/random/" class="card-img" alt="...">
-                            <div class="card-img-overlay">
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Last updated 3 mins ago</p>
-                            </div>
-                        </div> -->
-                    </div>
-                    <div class="col-7">
-                        <h1>2</h1>
-                        <!-- <div class="card bg-dark text-white">
-                            <img src="https://source.unsplash.com/random/" class="card-img"  alt="...">
-                            <div class="card-img-overlay">
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Last updated 3 mins ago</p>
-                            </div>
-                        </div> -->
-                    </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4" data-masonry='{"percentPosition": true }'>
+                <div class="col">
+                    <?php get_template_part('template-parts/experience', 'gallerycard', $posts[0] -> to_array()) ?>
                 </div>
-
-                <div class="row m-1 bg-blue-3" style="min-height: 50%;">
-                    <div class="col-5">
-                        <h1>3</h1>
-                        <!-- <div class="card bg-dark text-white">
-                            <img src="https://source.unsplash.com/random/500x300" class="card-img" alt="...">
-                            <div class="card-img-overlay">
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Last updated 3 mins ago</p>
-                            </div>
-                        </div> -->
-                    </div>
-                    <div class="col-2">
-                        <h1>4</h1>
-                        <!-- <div class="card bg-dark text-white">
-                            <img src="https://source.unsplash.com/random/500x300" class="card-img" alt="...">
-                            <div class="card-img-overlay">
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Last updated 3 mins ago</p>
-                            </div>
-                        </div> -->
-                    </div>
-                    <div class="col-5">
-                        <h1>5</h1>
-                        <!-- <div class="card bg-dark text-white">
-                            <img src="https://source.unsplash.com/random/500x300" class="card-img" alt="...">
-                            <div class="card-img-overlay">
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Last updated 3 mins ago</p>
-                            </div>
-                        </div> -->
-                    </div>
+                <div class="col">
+                    <?php get_template_part('template-parts/experience', 'gallerycard', $posts[1] -> to_array()) ?>
                 </div>
-                <div class="row m-1 bg-blue-2" style="min-height: 30%;">
-                    <div class="col-7">
-                    <h1>6</h1>
-                        <!-- <div class="card bg-dark text-white">
-                            <img src="https://source.unsplash.com/random/500x300" class="card-img" alt="...">
-                            <div class="card-img-overlay">
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Last updated 3 mins ago</p>
-                            </div>
-                        </div> -->
-                    </div>
-                    <div class="col-5">
-                    <h1>7</h1>
-
-                        <!-- <div class="card bg-dark text-white">
-                            <img src="https://source.unsplash.com/random/500x300" class="card-img" alt="...">
-                            <div class="card-img-overlay">
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Last updated 3 mins ago</p>
-                            </div>
-                        </div> -->
-                    </div>
+                <div class="col">
+                    <?php get_template_part('template-parts/experience', 'gallerycard'); ?>
+                </div>
+                <div class="col">
+                    <?php get_template_part('template-parts/experience', 'gallerycard'); ?>
                 </div>
             </div>
         </div>
