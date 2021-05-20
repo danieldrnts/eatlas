@@ -52,9 +52,9 @@ get_header();
         </div>
         <div class="col-12">
             <!-- NOTE TWO GUIDES -->
-            <div class="row mx-0 my-5 bg-light" style="height: fit-content;border-radius: 10%">
-                <div class="col-md-6 h-100 d-flex flex-column justify-content-center">
-                    <div class="bg-light  text-white mx-auto" style="height: 60%; width: 80%;">
+            <div class="row mx-0 my-5 d-flex flex-row justify-content-center" style="height: fit-content;">
+                <div class="col-12 d-flex flex-row" style="width: fit-content;height:min-content">
+                    <div class="bg-light text-dark mx-auto" style="border-top-left-radius: 10%;border-bottom-left-radius: 10%;">
                         <div class="p-5 text-center">
                             <p class="fs-2 fw-bolder text-center">
                                 Be and eATLAS <br>
@@ -65,12 +65,10 @@ get_header();
                             <p class="fs-3 fw-bold">
                                 Make money.
                             </p>
-                            <button type="button" class="btn btn-light btn-lg mt-5 " style="border-radius: 2.3rem !important;"> <span class="fw-bold fs-2 text-primary">Become a Whoa!Guide</span> </button>
+                            <button type="button" class="btn btn-primary btn-lg mt-5 " style="border-radius: 2.3rem !important;"> <span class="fw-normal fs-4 text-light p-3">Become a Whoa!Guide</span> </button>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 h-100 d-flex flex-column justify-content-center">
-                    <div class="bg-light text-white mx-auto" style="height: 60%; width: 80%;">
+                    <div class="bg-light text-dark mx-auto" style="border-top-right-radius: 10%;border-bottom-right-radius: 10%;">
                         <div class="p-5 text-center">
                             <p class="fs-2 fw-bolder text-center">
                                 eATLAS Mobile Tours - <br>
@@ -82,10 +80,11 @@ get_header();
                             <p class="fs-3 fw-bold">
                                 Just tap & whoa!
                             </p>
-                            <button type="button" class="btn btn-light btn-lg mt-5 " style="border-radius: 2.3rem !important;"> <span class="fw-bold fs-2 text-primary">Take an eATLAS Tour</span> </button>
+                            <button type="button" class="btn btn-danger btn-lg mt-5 " style="border-radius: 2.3rem !important;"> <span class="fw-normal fs-4 text-light p-3">Take an eATLAS Tour</span> </button>
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
@@ -189,7 +188,7 @@ get_header();
 
 
     <!-- NOTE meet video desktop -->
-    <div class="d-none d-md-flex row mx-0 bg-blue-1 " style="min-height: 100vh;background-color:#dab665">
+    <div class="d-none d-md-flex row mx-0 bg-gray " style="min-height: 100vh;">
         <!-- NOTE mobile landing -->
         <div class="container ">
             <div class="row py-4">
@@ -204,13 +203,13 @@ get_header();
                     </video>
                 </div>
             </div>
-            <div class="row  m-0 mt-4">
+            <div class="row  m-0 mt-4 mb-5">
                 <div class="col-12 d-flex flex-row justify-content-center">
                     <div>
                         <p class="fw-normal fs-4 py-2 text-start text-dark">Our Whoa!Guides design amazing mobile tours that bring the world to life. <br>
                             Fill your phone with adventures that take you to the top sights and the hidden gems. <br>
                             Find NEW tours added every week.</p>
-                        <p class="fw-bold fs-3 py-2 text-start text-dark">Just tap to Tour. And Swipe to Whoa!</p>
+                        <p class="fw-bold fs-3 py-2 text-start text-dark mb-3">Just tap to Tour. And Swipe to Whoa!</p>
                     </div>
                     <!-- <div class="d-flex flex-row  justify-content-center mx-auto">
                         <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
@@ -221,39 +220,24 @@ get_header();
         </div>
     </div>
 
-    <!-- NOTE Download app desktop-->
-    <!-- <div class="d-none d-md-flex row m-0 p-0 bg-blue-3" style="height:90vh">
-        <div class="col-6 h-100 d-flex-column justify-content-center ">
-            <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
-            <p class="fs-6 blue-5 fw-light text-center mt-4 mx-4 airplane-svg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, expedita cumque eligendi velit dicta saepe culpa harum ipsa iusto, magni et distinctio vero in laudantium molestiae numquam officia consequatur similique!</p>
-            <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
-            <div class="d-flex flex-row  justify-content-center mx-auto mt-2">
-                <img class="mx-5 shadow" style="height: 3em;" src="<? //php// echo get_bloginfo('template_url') 
-                                                                    ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                <img class="mx-5 shadow" style="height: 3em;" src="<? //php //echo get_bloginfo('template_url') 
-                                                                    ?>/assets/images/apple-badge.svg" alt="google-badge">
-            </div>
-        </div>
-        <div class="col-6 d-flex flex-column justify-content-center">
-            <img src="<?php // echo get_bloginfo('template_url') 
-                        ?>/assets/images/world-map.svg" alt="">
-        </div>
-    </div> -->
-
     <!-- NOTE Download app Desktop new -->
-    <div class="d-none d-md-flex row m-0 p-0 bg-blue-3" style="height:90vh">
-        <div class="col-6 h-100 d-flex-column justify-content-center ">
-            <img src="https://source.unsplash.com/random/600x450" alt="" class=" shadow rounded">
-        </div>
-        <div class="col-6 d-flex flex-column justify-content-center">
-            <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
-            <p class="fs-6 blue-5 fw-light text-center mt-4 mx-4 airplane-svg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, expedita cumque eligendi velit dicta saepe culpa harum ipsa iusto, magni et distinctio vero in laudantium molestiae numquam officia consequatur similique!</p>
-            <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
-            <div class="d-flex flex-row  justify-content-center mx-auto mt-2">
-
-                <img class="mx-5 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                <img class="mx-5 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+    <div class="d-none d-md-flex row m-0 p-0 bg-warning" style="height:60vh">
+        <div class="col-5 h-100  d-flex flex-column justify-content-center">
+            <div class=" d-flex">
+                <img src="https://source.unsplash.com/random/500x350" alt="" class="shadow rounded mx-auto">
             </div>
+        </div>
+        <div class="col-7 d-flex justify-content-start h-100">
+            <div class="d-flex flex-column justify-content-center ">
+                <p class="fw-bold fs-1 pt-1 text-start">The tour starts when you say it does.</p>
+                <p class="fs-4 fw-normal text-start mt-4 mx-4 airplane-svg">All eAtlas tours & experiences are desinged and built by experienced eATLAS Whoa!Guides. They're always on. Always entertaining. And always ready to go.</p>
+                <p class="fw-bold fs-4 text-start my-4">Download eATLAS & Tour Anytime</p>
+                <div class="d-flex flex-row  justify-content-start mt-2">
+                    <img class="shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
+                    <img class="ms-4 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                </div>
+            </div>
+
         </div>
     </div>
 
