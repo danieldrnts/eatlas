@@ -29,13 +29,13 @@
 	<!-- tag para el main container -->
 	<div class="container-fluid mx-0 px-0" style="min-height: 100vh;">
 		<div class="row d-flex flex-row h-100 mx-0 ">
-			<div class="col-12 px-0 position-sticky" style="top: 0.1px;">
+			<div class="col-12 px-0 position-fixed" style="top: 0.1px;background: white;z-index: 100000;">
 				<!-- Navbar -->
-				<nav class="navbar navbar-expand-lg navbar-light bg-blue-3">
+				<nav class="navbar navbar-expand-lg navbar-light ">
 					<div class="container-fluid px-0 py-2">
 						<a class="ps-md-5 navbar-brand fw-bold blue-5" href="#">
 							<img src="https://play-lh.googleusercontent.com/IlyM8GsSE1CNeivAVhEEyFvRy9L_XvRGANeRdZBHYPu_tqFf3SK3rMietjfpZkxPxHDh=s180-rw" alt="" width="30" height="24" class="d-inline-block align-text-top">
-							<span class="blue-5">eAtlas</span> 
+							<span class="text-gray">eAtlas</span> 
 						</a>
 						<button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
@@ -100,7 +100,8 @@
 							</div>
 						</div>
 
-						<div class="d-none d-sm-flex navbar-text  me-5">
+							<!-- NOTE social icons desktop -->
+						<!-- <div class="d-none d-sm-flex navbar-text  me-5 ">
 							<ul class="d-flex flex-row justify-content-center ps-0" style="list-style-type: none">
 								<li class="mx-2">
 									<a href="#">
@@ -123,7 +124,7 @@
 									</a>
 								</li>
 							</ul>
-						</div>
+						</div> -->
 
 					</div>
 				</nav>

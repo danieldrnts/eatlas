@@ -72,6 +72,16 @@ body {
   );
 }
 
+.bg-b-pink-gradient {
+  background: rgb(190, 137, 18);
+  background: linear-gradient(
+    135deg,
+    rgba(190, 137, 18, 0.6811099439775911) 0%,
+    rgba(226, 81, 63, 1) 35%,
+    rgba(255, 69, 172, 1) 78%
+  );
+}
+
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
@@ -94,6 +104,7 @@ h1 {
 
 .under-line-blue {
   border-bottom: 2px solid var(--blue-5);
+  /* border-bottom: 2px solid var(--b-pink); */
   padding-bottom: 5px;
 }
 
@@ -115,9 +126,11 @@ h1 {
 .desktop-child-custom ul li a {
   font-size: x-large;
   font-weight: bold;
-  color: var(--blue-5);
+  /* color: var(--blue-5); */
+  color: gray;
   text-decoration: none;
-  border-bottom: 5px solid var(--blue-5);
+  /* border-bottom: 5px solid var(--blue-5); */
+  border-bottom: 5px solid var(--b-pink);
   padding-bottom: 5px;
   /* margin: 1.2em 0 1.2em 0; */
 }
