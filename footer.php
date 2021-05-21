@@ -15,12 +15,16 @@
 <!-- NOTE footer -->
 
 <!-- NOTE mobile -->
-<div class=" container-fluid bg-blue-5 py-3">
+<div class=" container-fluid bg-secondary py-3">
 	<div class="row d-md-flex flex-md-row-reverse">
-		<div class="col-12 col-md-4 my-md-auto">
-			<p class="text-white fw-normal fs-2 text-center">Our social media</p>
+		<div class="col-12 col-md-3 my-md-auto ">
+			<p class="text-white fw-normal fs-3 text-center">872 s Milwaukee Avenue #139 <br> Libertyville IL 60048</p>
+			
+			<div class="d-none d-md-block text-white text-center">
+				<p class="fw-normal fs-3">224-202-7536</p>
+			</div>
 			<ul class="d-none d-md-flex flex-row justify-content-center ps-0" style="list-style-type: none">
-				<li class="mx-2">
+				<!-- <li class="mx-2">
 					<a href="#">
 						<i class="bi bi-youtube text-white" style="font-size: 1.5rem;"></i>
 					</a>
@@ -29,38 +33,61 @@
 					<a href="#">
 						<i class="bi bi-twitter text-white" style="font-size: 1.5rem;"></i>
 					</a>
-				</li>
+				</li> -->
 				<li class="mx-2">
 					<a href="#">
-						<i class="bi bi-instagram text-white" style="font-size: 1.5rem;"></i>
+						<i class="bi bi-instagram text-white" style="font-size: 2rem;"></i>
 					</a>
 				</li>
 				<li class="mx-2">
 					<a href="#">
-						<i class="bi bi-facebook text-white" style="font-size: 1.5rem;"></i>
+						<i class="bi bi-facebook text-white" style="font-size: 2rem;"></i>
 					</a>
 				</li>
 			</ul>
-			<div class="d-none d-md-block text-white text-center">
-				<p class="fw-bold">Contact: +99 (99) 99 99 99 </p>
-			</div>
 		</div>
-		<div class="col-12 col-md-4">
+		<div class="col-12 col-md-6">
 			<div class="row d-none d-md-flex text-white m-5">
-				<div class="col-6 ">
-					<ul>
-						<li>Our product</li>
-						<li>Some link 1</li>
-						<li>Some link 2</li>
-						<li>Some link 3</li>
+				<div class="col-8 ">
+					<ul style="list-style-type: none">
+						<li class="my-2" ><span class="fw-light fs-5 ">
+							Let's Whoa the World with amazing mobile tours/experiences you create on eATLAS.
+						</span></li>
+						<li class="my-2" >
+						<span class="fw-light fs-5">
+							We made it easy. You make it amazing.
+						</span>
+						</li>
+						<li class="my-2" >
+						<span class="fw-light fs-5">
+							It's fast, fun, and simple to build mobile tours & experiences with no coding required!
+						</span>
+						</li>
 					</ul>
 				</div>
-				<div class="col-6">
-					<ul>
-						<li>Our product</li>
-						<li>Some link 1</li>
-						<li>Some link 2</li>
-						<li>Some link 3</li>
+				<div class="col-4">
+					<ul  style="list-style-type: none;">
+						<li class="mt-2">
+						<a href="#" style="text-decoration: none;">
+						<span class="fw-bold fs-5 text-white">
+							Whoa! Guide
+						</a>
+						</span>
+						</li>
+						<li class="mt-2">
+						<a href="#" style="text-decoration: none;">
+						<span class="fw-bold fs-5 text-white">
+							Consumers
+						</a>
+						</span>
+						</li>
+						<li class="mt-2">
+						<a href="#" style="text-decoration: none;">
+						<span class="fw-bold fs-5 text-white">
+							Contact us
+						</a>
+						</span>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -87,7 +114,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="col-12 col-md-4 my-md-auto">
+		<div class="col-12 col-md-3 my-md-auto">
 			<div class="d-flex flex-row justify-content-center align-content-center ">
 				<p class="fw-bolder fs-1 text-white text-center mx-3">
 					eAtlas
@@ -97,7 +124,13 @@
 			<div class="text-center">
 				<small class="text-white text-center">Lorem ipsum dolor, sit amet consectetur adipisicing</small>
 			</div>
-
+		</div>
+	</div>
+	<div class="row bg-light m-0 p-0">
+		<div class="col-12 d-flex flex-column justify-content-center">
+			<p class="fw-light fs-5 m-0">
+				&copy; <?php echo date('Y'); ?>. Inciteful Games Holdings LLC - All Rights Reserved
+			</p>
 		</div>
 	</div>
 </div>
