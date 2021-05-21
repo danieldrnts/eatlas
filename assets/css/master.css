@@ -441,6 +441,9 @@ textarea:focus {
     border-bottom-right-radius: 460px;
     background-color: var(--blue-1);
   }
+  .custom-font-size {
+    font-size: 4.5rem !important;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

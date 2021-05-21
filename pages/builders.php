@@ -11,21 +11,27 @@ get_header();
             <div class="d-flex flex-column">
                 <p class="d-md-none fs-1 blue-5 fw-bold text-center mt-3 airplane-svg">Become a</p>
                 <p class="d-md-none fs-1 blue-5 fw-bold text-center  airplane-svg"> Builder</p>
-                <div class="d-none d-md-flex flex-md-column  mt-5">
-                    <p class="fw-bold fs-1 pt-1 text-center text-white ">Be an eATLAS <br> Whoa!Guide</p>
-                    <div class="d-flex flex-column  justify-content-center mx-auto">
-                        <p class="text-white fw-bold fw-3">
+                <div class="d-none d-md-flex flex-md-column  p-5 mt-5">
+                    <p class="fw-bold fs-1 pt-1 text-start text-white custom-font-size ms-5">Be an eATLAS <br> Whoa!Guide</p>
+                    <div class="d-flex flex-column  justify-content-start ms-5">
+                        <p class="text-white fw-normal fs-2">
                             Start bulding mobile tours with no coding required.
                         </p>
-                        <ul class="text-white">
-                        <li class="fw-light fs-5">Share your passions</li>
-                        <li class="fw-light fs-5">Build your audience</li>
-                        <li class="fw-light fs-5">Always on. Always earning</li>
-                        </ul>
+
                     </div>
-                    <p class="text-white fw-bold fs-3 text-center">
-                            We made it easy. <span class="fst-italic">You make it amazing</span>
-                        </p>
+                    <p class="text-white fw-bold fs-3 text-start ms-5">
+                        We made it easy. <span class="fst-italic">You make it amazing</span>
+                    </p>
+                    <div class=" my-3">
+                        <div class="btn  bg-b-pink mx-auto my-5 p-3" style="width: 50%;border-radius: 2.50rem; display: block">
+                            <span class="fw-bold fs-2 text-white">Apply now!</span>
+                        </div>
+                        <div class="mx-auto my-5" style="width: fit-content;">
+                            <p class="fw-lighter  fs-2">
+                                <a class="text-white" href="#">Whoa!Guide Login</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,7 +74,7 @@ get_header();
                         <div class="col-12">
                         </div>
                         <div class="col-12  d-flex flex-row justify-content-center">
-                            <img  class="img img-fluid rounded" src="<?php echo get_bloginfo('template_url') ?>/assets/images/builders-page/girl-laptop.jpg" alt="">
+                            <img class="img img-fluid rounded" src="<?php echo get_bloginfo('template_url') ?>/assets/images/builders-page/man-with-phone-large.png" alt="">
                         </div>
                         <div class="col-12">
                             <!-- <p class="d-none d-md-block text-white blue-5 fw-light fs-6 text-center mt-5"> With amazing mobile tours & experiences you create with eAtlas</p> -->
@@ -84,9 +90,10 @@ get_header();
                     <p class="d-none d-md-block  fw-normal fs-6 text-center "> It's fast, fun and easy to share your passions with the world</p>
                     <p class="d-none d-md-block  fw-bold fs-6 text-center "> Make tours. Make memories. Make money</p>
                     <div style="width: fit-content;" class="btn bg-b-pink rounded mx-auto my-2"><span class="fw-bold fs-4 text-white">
-                    Start now
-                    </span></div>
-                    <p  class="d-none d-md-block  fw-bold fs-6 text-center mx-auto my-2" style="border-bottom: 2px solid grey; padding-bottom: 10px; width: fit-content"> Sign up to learn more</p>
+                            Start now
+                        </span>
+                    </div>
+                    <p class="d-none d-md-block  fw-bold fs-6 text-center mx-auto my-2" style="border-bottom: 2px solid grey; padding-bottom: 10px; width: fit-content"> Sign up to learn more</p>
                 </div>
             </div>
         </div>
@@ -222,7 +229,7 @@ get_header();
             <div class="d-none d-md-block blue-5 px-5">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque tempora sit, voluptate, vitae magni inventore molestias amet dignissimos beatae consequatur omnis totam quisquam corporis blanditiis sequi exercitationem aliquid ipsa?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus mollitia, distinctio eveniet soluta sint voluptatum? Ab, veritatis quod amet aperiam cumque reiciendis. Porro accusamus alias adipisci placeat at a perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo corporis veritatis molestiae ut natus accusamus hic, doloribus, illum molestias sed, cumque officiis sequi ratione adipisci eaque fugiat excepturi odit!</p>
-                
+
             </div>
 
         </div>
@@ -239,8 +246,8 @@ get_header();
                 </div>
             </div>
             <div class="row p-5">
-            <div class="col-2">
-            </div>
+                <div class="col-2">
+                </div>
                 <div class="col-4 ">
                     <?php get_template_part('template-parts/builder', 'card'); ?>
                 </div>
