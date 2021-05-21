@@ -84,16 +84,16 @@ get_header();
                 </div>
                 <div class="col-6 px-5 d-flex flex-column text-dark justify-content-center">
                     <div>
-                        <p class="d-none d-md-block fw-bold fs-1 text-center ">Lets Whoa! the world</p>
+                        <p class="d-none d-md-block fw-bold fs-1 text-start ">Lets Whoa! the world</p>
                     </div>
-                    <p class="d-none d-md-block  fw-normal fs-6 text-center "> With amazing mobile tours & experiences you create with eAtlas</p>
-                    <p class="d-none d-md-block  fw-normal fs-6 text-center "> It's fast, fun and easy to share your passions with the world</p>
-                    <p class="d-none d-md-block  fw-bold fs-6 text-center "> Make tours. Make memories. Make money</p>
-                    <div style="width: fit-content;" class="btn bg-b-pink rounded mx-auto my-2"><span class="fw-bold fs-4 text-white">
+                    <p class="d-none d-md-block  fw-normal fs-6 text-start "> With amazing mobile tours & experiences you create with eAtlas</p>
+                    <p class="d-none d-md-block  fw-normal fs-6 text-start "> It's fast, fun and easy to share your passions with the world</p>
+                    <p class="d-none d-md-block  fw-bold fs-6 text-start "> Make tours. Make memories. Make money</p>
+                    <div style="width: fit-content;border-radius:2rem" class="btn bg-b-pink mx-auto my-2"><span class="fw-bold fs-4 text-white px-5">
                             Start now
                         </span>
                     </div>
-                    <p class="d-none d-md-block  fw-bold fs-6 text-center mx-auto my-2" style="border-bottom: 2px solid grey; padding-bottom: 10px; width: fit-content"> Sign up to learn more</p>
+                    <p class="d-none d-md-block  fw-light fs-4 text-center mx-auto mt-4" style="border-bottom: 2px solid grey; padding-bottom: 10px; width: fit-content"> Sign up to learn more</p>
                 </div>
             </div>
         </div>
@@ -124,12 +124,29 @@ get_header();
                 Start Whoa-ing the world
             </p>
             <p class="fw-normal fs-3 text-center">
-                Start Whoa-ing the world
+                Apply now to start building tours that Whoa!
             </p>
             <div class="d-none d-md-block mx-auto px-5">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque tempora sit, voluptate, vitae magni inventore molestias amet dignissimos beatae consequatur omnis totam quisquam corporis blanditiis sequi exercitationem aliquid ipsa?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus mollitia, distinctio eveniet soluta sint voluptatum? Ab, veritatis quod amet aperiam cumque reiciendis. Porro accusamus alias adipisci placeat at a perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo corporis veritatis molestiae ut natus accusamus hic, doloribus, illum molestias sed, cumque officiis sequi ratione adipisci eaque fugiat excepturi odit!</p>
-                <img class="mt-4" style="height: 12em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/details.svg" alt="details-badge">
+                <ul>
+                    <li>
+                        <div>
+                            <img src="" alt="">
+                            <p><span class="fw-bold fs-5">No coding required </span><br> <span class="fw-light fs-6">The eATLAS Platform is a digital suite of tool kits and business services.</span> </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="" alt="">
+                            <p><span class="fw-bold fs-5">Easily create eATLAS experiences</span><br> <span class="fw-light fs-6"> Create Guided Tours and Treasure Hunts accesible from customer's mobile phones. </span> </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="" alt="">
+                            <p><span class="fw-bold fs-5">No coding required </span><br> <span class="fw-light fs-6">Receive 70% of the fee each time it's purchased</span> </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="col-12 col-md-6 d-md-flex flex-md-column justify-content-center">
@@ -220,7 +237,7 @@ get_header();
         </div>
     </div>
 
-    <!-- NOTE Meet Builders Desktop -->
+    <!-- NOTE BRIAN NEW MEET BUILDERS-->
     <div class="row m-0 p-0 bg-blue-3" style="min-height: 100vh;">
         <div class="col-4 d-md-flex flex-md-column justify-content-center">
             <p class="fw-normal fs-1 blue-5 text-center align-middle">

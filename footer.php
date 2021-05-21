@@ -15,11 +15,11 @@
 <!-- NOTE footer -->
 
 <!-- NOTE mobile -->
-<div class=" container-fluid bg-secondary py-3">
-	<div class="row d-md-flex flex-md-row-reverse">
+<div class=" container-fluid p-0 m-0">
+	<div class="row  bg-secondary d-md-flex flex-md-row-reverse">
 		<div class="col-12 col-md-3 my-md-auto ">
 			<p class="text-white fw-normal fs-3 text-center">872 s Milwaukee Avenue #139 <br> Libertyville IL 60048</p>
-			
+
 			<div class="d-none d-md-block text-white text-center">
 				<p class="fw-normal fs-3">224-202-7536</p>
 			</div>
@@ -50,43 +50,43 @@
 			<div class="row d-none d-md-flex text-white m-5">
 				<div class="col-8 ">
 					<ul style="list-style-type: none">
-						<li class="my-2" ><span class="fw-light fs-5 ">
-							Let's Whoa the World with amazing mobile tours/experiences you create on eATLAS.
-						</span></li>
-						<li class="my-2" >
-						<span class="fw-light fs-5">
-							We made it easy. You make it amazing.
-						</span>
+						<li class="my-2"><span class="fw-light fs-5 ">
+								Let's Whoa the World with amazing mobile tours/experiences you create on eATLAS.
+							</span></li>
+						<li class="my-2">
+							<span class="fw-light fs-5">
+								We made it easy. You make it amazing.
+							</span>
 						</li>
-						<li class="my-2" >
-						<span class="fw-light fs-5">
-							It's fast, fun, and simple to build mobile tours & experiences with no coding required!
-						</span>
+						<li class="my-2">
+							<span class="fw-light fs-5">
+								It's fast, fun, and simple to build mobile tours & experiences with no coding required!
+							</span>
 						</li>
 					</ul>
 				</div>
 				<div class="col-4">
-					<ul  style="list-style-type: none;">
+					<ul style="list-style-type: none;">
 						<li class="mt-2">
-						<a href="#" style="text-decoration: none;">
-						<span class="fw-bold fs-5 text-white">
-							Whoa! Guide
-						</a>
-						</span>
+							<a href="#" style="text-decoration: none;">
+								<span class="fw-bold fs-5 text-white">
+									Whoa! Guide
+							</a>
+							</span>
 						</li>
 						<li class="mt-2">
-						<a href="#" style="text-decoration: none;">
-						<span class="fw-bold fs-5 text-white">
-							Consumers
-						</a>
-						</span>
+							<a href="#" style="text-decoration: none;">
+								<span class="fw-bold fs-5 text-white">
+									Consumers
+							</a>
+							</span>
 						</li>
 						<li class="mt-2">
-						<a href="#" style="text-decoration: none;">
-						<span class="fw-bold fs-5 text-white">
-							Contact us
-						</a>
-						</span>
+							<a href="#" style="text-decoration: none;">
+								<span class="fw-bold fs-5 text-white">
+									Contact us
+							</a>
+							</span>
 						</li>
 					</ul>
 				</div>

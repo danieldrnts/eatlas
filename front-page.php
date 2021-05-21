@@ -68,6 +68,9 @@ get_header();
                             <button type="button" class="btn btn-primary btn-lg mt-5 " style="border-radius: 2.3rem !important;"> <span class="fw-normal fs-4 text-light p-3">Become a Whoa!Guide</span> </button>
                         </div>
                     </div>
+                    <div class=" bg-light d-flex flex-column justify-content-center px-4">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/logo.png" alt="website-logo">
+                    </div>
                     <div class="bg-light text-dark mx-auto" style="border-top-right-radius: 10%;border-bottom-right-radius: 10%;">
                         <div class="p-5 text-center">
                             <p class="fs-2 fw-bolder text-center">
@@ -132,61 +135,6 @@ get_header();
         </div>
     </div>
 
-    <!-- NOTE Custumers / Builders -->
-    <!-- <div class="row mx-0 bg-blue-1" style="min-height: 100vh;">
-        <div class="container-fluid p-0 m-0">
-            <div class="row pt-3 bg-blue-2">
-                <div class="col-12 col-md-6 p-0">
-                    <p class="fw-bold fs-1  text-center  text-md-start ms-md-5 blue-5">Consumers</p>
-                    <p class="fw-normal fs-5 text-center  text-md-start ms-md-5 blue-5">Lorem ipsum dolor sit amet</p>
-                    <p class="fw-light fs-6 text-center  text-md-start ms-md-5 text-break mx-3 blue-5  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, consequuntur quasi accusantium ad reiciendis deleniti, quas consectetur aliquid similique excepturi, id itaque autem eum commodi sunt praesentium. Dolor, ullam aspernatur!</p>
-                    <div class="d-flex flex-row justify-content-center">
-                        <button class="btn btn-primary btn-large my-3 shadow">
-                            <span class="text-white">
-                                Live an Experience</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 p-0">
-                    <img class="img-fluid d-none d-md-block " src="<?php echo get_bloginfo('template_url') ?>/assets/images/consumers.svg" alt="consumers">
-                    <img class="img-fluid d-md-none" src="<?php echo get_bloginfo('template_url') ?>/assets/images/womanandgirl.svg" alt="womanandgirl">
-                </div>
-            </div>
-            <div class="row bg-blue-4 pt-3  pt-md-5">
-                <div class="col-12 d-md-none">
-                    <p class="fw-bold fs-1  text-center text-white">Builders</p>
-                    <p class="fw-normal fs-5 text-center text-white">Lorem ipsum dolor sit amet</p>
-                    <p class="fw-light fs-6 text-center text-break mx-3 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, consequuntur quasi accusantium ad reiciendis deleniti, quas consectetur aliquid similique excepturi, id itaque autem eum commodi sunt praesentium. Dolor, ullam aspernatur!</p>
-                    <div class="d-flex flex-row justify-content-center">
-                        <button class="btn btn-light btn-large mt-3 mb-5 shadow">
-                            <span class="blue-5">
-                                Become a Builder
-                            </span>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 p-0">
-                    <div class="d-flex flex-row-reverse">
-                        <img class="img-fluid hand-and-phone-svg" src="<?php echo get_bloginfo('template_url') ?>/assets/images/hand-and-phone.svg" alt="">
-                    </div>
-                </div>
-                <div class=" d-none d-md-block col-12 col-md-6 p-0">
-                    <p class="fw-bold fs-1  text-center text-white">Builders</p>
-                    <p class="fw-normal fs-5 text-center text-white">Lorem ipsum dolor sit amet</p>
-                    <p class="fw-light fs-6 text-center text-break mx-3 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, consequuntur quasi accusantium ad reiciendis deleniti, quas consectetur aliquid similique excepturi, id itaque autem eum commodi sunt praesentium. Dolor, ullam aspernatur!</p>
-                    <div class="d-flex flex-row justify-content-center">
-                        <button class="btn btn-light btn-large mt-3 mb-5 shadow">
-                            <span class="blue-5">
-                                Become a Builder
-                            </span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
     <!-- NOTE meet video desktop -->
     <div class="d-none d-md-flex row mx-0 bg-gray " style="min-height: 100vh;">
         <!-- NOTE mobile landing -->
@@ -198,8 +146,8 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 d-flex flex-row justify-content-center" style="height: fit-content;">
-                    <video class="shadow" style="height: 50%; border-radius: 6.5%" src="<?php echo get_bloginfo('template_url') ?>/assets/videos/meetVideo.mp4">
+                <div class="col-12 d-flex flex-row justify-content-center p-5" style="height: fit-content;">
+                    <video class="shadow mx-5" style="height: 50%; border-radius: 6.5%" src="<?php echo get_bloginfo('template_url') ?>/assets/videos/meetVideo.mp4">
                     </video>
                 </div>
             </div>
@@ -221,10 +169,10 @@ get_header();
     </div>
 
     <!-- NOTE Download app Desktop new -->
-    <div class="d-none d-md-flex row m-0 p-0 bg-warning" style="height:60vh">
+    <div class="d-none d-md-flex row m-0 p-0 bg-warning" style="height:80vh">
         <div class="col-5 h-100  d-flex flex-column justify-content-center">
             <div class=" d-flex">
-                <img src="https://source.unsplash.com/random/500x350" alt="" class="shadow rounded mx-auto">
+                <img src="https://source.unsplash.com/random/500x350" class="shadow mx-auto" style="border-radius: 4.25rem!important;">
             </div>
         </div>
         <div class="col-7 d-flex justify-content-start h-100">
