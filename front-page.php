@@ -205,6 +205,7 @@ get_header();
             <p class="fw-light my-1 fs-6 text-white my-3 mx-5 text-center"> Lorem ipsum dolor sit amet dolor sit </p>
         </div>
     </div>
+
     <!-- NOTE Some Experiences mobile-->
     <div class="row m-0 p-0 bg-blue-2 d-flex flex-column d-md-none" style="min-height: 100vh;">
         <div class="col-12 mt-3">
@@ -243,6 +244,7 @@ get_header();
             </p>
         </div>
     </div>
+
     <!-- NOTE Some Experiences desktop -->
     <!-- TODO terminar la galleria -->
     <? //php
