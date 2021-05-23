@@ -44,7 +44,7 @@ get_header();
     </div>
 
     <!-- NOTE meet video -->
-    <div class="row mx-0 " style="height: 100vh;">
+    <div class="row mx-0 " style="height: 80vh;">
         <!-- NOTE mobile video -->
         <div class="container d-md-none bg-blue-1">
             <div class="row col-12 py-4">
@@ -118,32 +118,38 @@ get_header();
     </div>
 
     <!-- NOTE apply builder form MOBILE & DESKTOP -->
-    <div class="row m-0 p-0 mt-3 bg-b-yellow" style="min-height: 100vh;">
+    <div class="row m-0 p-0 mt-3 mt-md-0 bg-b-yellow" style="min-height: 100vh;">
         <div class="col-12 col-md-6 d-md-flex flex-md-column justify-content-center text-dark">
             <p class="fw-bold fs-1 text-center">
                 Start Whoa-ing the world
             </p>
             <p class="fw-normal fs-3 text-center">
-                Apply now to start building tours that Whoa!
+                Submit
             </p>
             <div class="d-none d-md-block mx-auto px-5">
-                <ul>
+                <ul style="list-style-type: none;">
                     <li>
-                        <div>
-                            <img src="" alt="">
-                            <p><span class="fw-bold fs-5">No coding required </span><br> <span class="fw-light fs-6">The eATLAS Platform is a digital suite of tool kits and business services.</span> </p>
+                        <div class="d-flex flex-row">
+                            <img class="m-4" src="<?php echo get_bloginfo('template_url') ?>/assets/images/builders-page/icon-coding.png" alt="">
+                            <div class="d-flex flex-column justify-content-center ">
+                                <p><span class="fw-bold fs-5">No coding required </span><br> <span class="fw-light fs-6">The eATLAS Platform is a digital suite of tool kits and business services.</span> </p>
+                            </div>
                         </div>
                     </li>
                     <li>
-                        <div>
-                            <img src="" alt="">
-                            <p><span class="fw-bold fs-5">Easily create eATLAS experiences</span><br> <span class="fw-light fs-6"> Create Guided Tours and Treasure Hunts accesible from customer's mobile phones. </span> </p>
+                        <div class="d-flex flex-row">
+                            <img class="m-4" src="<?php echo get_bloginfo('template_url') ?>/assets/images/builders-page/icon-map.png" alt="">
+                            <div class="d-flex flex-column justify-content-center ">
+                                <p><span class="fw-bold fs-5">Easily create eATLAS experiences</span><br> <span class="fw-light fs-6"> Create Guided Tours and Treasure Hunts accesible from customer's mobile phones. </span> </p>
+                            </div>
                         </div>
                     </li>
                     <li>
-                        <div>
-                            <img src="" alt="">
-                            <p><span class="fw-bold fs-5">No coding required </span><br> <span class="fw-light fs-6">Receive 70% of the fee each time it's purchased</span> </p>
+                        <div class="d-flex flex-row">
+                            <img class="m-4" src="<?php echo get_bloginfo('template_url') ?>/assets/images/builders-page/icon-money.png" alt="">
+                            <div class="d-flex flex-column justify-content-center ">
+                                <p><span class="fw-bold fs-5">No coding required </span><br> <span class="fw-light fs-6">Receive 70% of the fee each time it's purchased</span> </p>
+                            </div>
                         </div>
                     </li>
                 </ul>
@@ -242,8 +248,8 @@ get_header();
         <div class="col-12 d-flex flex-column justify-content-center mt-5 mb-3">
             <p class="fw-bold fs-1 text-center">See what our Whoa!Guides have to say about eATLAS</p>
         </div>
-        <div class="col-12 ">
-            <div class="d-flex flex-row justify-content-around">
+        <div class="col-12">
+            <div class="d-flex flex-row justify-content-between">
                 <?php get_template_part('template-parts/builder', 'card'); ?>
                 <?php get_template_part('template-parts/builder', 'card'); ?>
                 <?php get_template_part('template-parts/builder', 'card'); ?>
@@ -262,15 +268,16 @@ get_header();
     <!-- NOTE Download app Desktop new -->
     <div class="d-none d-md-flex row m-0 p-0 bg-primary" style="height:80vh">
         <div class="col-5 h-100  d-flex flex-column justify-content-center">
-            <div class=" d-flex">
-                <img src="https://source.unsplash.com/random/500x350" class="shadow mx-auto" style="border-radius: 4.25rem!important;">
+            <div class=" d-flex flex-row justify-content-end ">
+                <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/consumers-page/girls.png" style="border-radius: 4.25rem!important;">
             </div>
         </div>
-        <div class="col-7 d-flex justify-content-start h-100">
+        <div class="col-7 d-flex justify-content-start h-100 text-light">
             <div class="d-flex flex-column justify-content-center ">
                 <p class="fw-bold fs-1 pt-1 text-start">The tour starts when you say it does.</p>
-                <p class="fs-4 fw-normal text-start mt-4 mx-4 airplane-svg">All eAtlas tours & experiences are desinged and built by experienced eATLAS Whoa!Guides. They're always on. Always entertaining. And always ready to go.</p>
-                <p class="fw-bold fs-4 text-start my-4">Download eATLAS & Tour Anytime</p>
+                <p class="fs-4 fw-normal text-start mt-1">Get eATLAS from your favorite platform.</p>
+                <!-- <p class="fs-4 fw-normal text-start mt-4 mx-4 airplane-svg">All eAtlas tours & experiences are desinged and built by experienced eATLAS Whoa!Guides. They're always on. Always entertaining. And always ready to go.</p> -->
+                <!-- <p class="fw-bold fs-4 text-start my-4">Download eATLAS & Tour Anytime</p> -->
                 <div class="d-flex flex-row  justify-content-start mt-2">
                     <img class="shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
                     <img class="ms-4 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">

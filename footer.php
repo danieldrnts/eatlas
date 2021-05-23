@@ -16,7 +16,7 @@
 
 <!-- NOTE mobile -->
 <div class=" container-fluid p-0 m-0">
-	<div class="row  bg-secondary d-md-flex flex-md-row-reverse">
+	<div class="row  bg-secondary d-md-flex flex-md-row-reverse m-0">
 		<div class="col-12 col-md-3 my-md-auto ">
 			<p class="text-white fw-normal fs-3 text-center">872 s Milwaukee Avenue #139 <br> Libertyville IL 60048</p>
 
