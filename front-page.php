@@ -24,20 +24,42 @@ get_header();
 <div class="container-fluid px-0 ">
 
     <!-- NOTE landing desktop -->
-    <div class="d-none d-md-flex row m-0 p-0  bg-b-blue-gradient" style="min-height:90vh">
-        <div class="col-6 text-white">
-            <p class="fs-1  fw-bold text-center mt-4 airplane-svg">Tours that Whoa!</p>
-            <p class="fs-2  fw-light text-start mt-4 mx-5 airplane-svg">If your city could talk, it would tell you to download eATLAS for the best on demand, mobile tours and adventures.</p>
-            <br>
-            <p class="fs-2  fw-normal text-start ms-5 mb-5">You don't need a better map. <br> You need a better guide. <br> And a better experience</p>
-            <!-- <img class="my-3 ms-5" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/airplane.svg" ?> -->
-            <p class="fw-normal fs-1 pt-1 text-center mt-5 ">Download & Go NOW</p>
-            <div class="d-flex flex-row  justify-content-center mx-auto mt-2">
-                <img class="mx-5 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                <img class="mx-5 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+    <div class=" row m-0 p-0  bg-b-blue-gradient" style="min-height:90vh">
+        <!-- NOTE mobile carousel -->
+        <div class="d-md-none row  m-0 p-0">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/gallery-1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/gallery-2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/gallery-3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-6 d-flex flex-column justify-content-center">
+        <div class="col-12 col-md-6 text-white">
+            <p class="fs-1  fw-bold text-center mt-4 airplane-svg">Tours that Whoa!</p>
+            <p class="fs-2  fw-light text-start mt-4 mx-1 mx-md-5 airplane-svg">If your city could talk, it would tell you to download eATLAS for the best on demand, mobile tours and adventures.</p>
+            <br>
+            <p class="fs-2  fw-normal text-start ms-md-5 mb-5">Throw out your guidebook. eATLAS is here.</p>
+            <!-- <img class="my-3 ms-5" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/airplane.svg" ?> -->
+            <p class="fw-normal fs-1 pt-1 text-center mt-5 ">Download & Go NOW</p>
+            <div class="d-flex flex-column flex-md-row  justify-content-center mx-auto mt-2">
+                <img class="mx-md-5 my-2 my-md-0 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
+                <img class="mx-md-5 my-2 my-md-0 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+            </div>
+        </div>
+        <!-- NOTE mini grid DESKTOP -->
+        <div class="d-none d-md-flex col-6 flex-column justify-content-center">
             <div class="row h-100">
                 <div class="col-12 h-100 p-5">
                     <div class="position-relative  h-100">
@@ -50,11 +72,11 @@ get_header();
             </div>
             <!-- <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/world-map.svg" alt=""> -->
         </div>
-        <div class="col-12">
-            <!-- NOTE TWO GUIDES -->
+        <!-- NOTE TWO GUIDES -->
+        <div class="col-12 ">
             <div class="row mx-0 my-5 d-flex flex-row justify-content-center" style="height: fit-content;">
-                <div class="col-12 d-flex flex-row" style="width: fit-content;height:min-content">
-                    <div class="bg-light text-dark mx-auto" style="border-top-left-radius: 10%;border-bottom-left-radius: 10%;">
+                <div class="col-12 d-flex flex-column flex-md-row" style="width: fit-content;height:min-content">
+                    <div class="bg-light text-dark mx-auto borders-mobile-top">
                         <div class="p-5 text-center">
                             <p class="fs-2 fw-bolder text-center">
                                 Be and eATLAS <br>
@@ -68,10 +90,10 @@ get_header();
                             <button type="button" class="btn btn-primary btn-lg mt-5 " style="border-radius: 2.3rem !important;"> <span class="fw-normal fs-4 text-light p-3">Become a Whoa!Guide</span> </button>
                         </div>
                     </div>
-                    <div class=" bg-light d-flex flex-column justify-content-center px-4">
-                        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/logo.png" alt="website-logo">
+                    <div class="bg-light d-flex flex-row flex-md-column justify-content-center px-4">
+                        <img class="img-fluid logo-mobile-size" src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/logo.png" alt="website-logo">
                     </div>
-                    <div class="bg-light text-dark mx-auto" style="border-top-right-radius: 10%;border-bottom-right-radius: 10%;">
+                    <div class="bg-light text-dark mx-auto borders-mobile-bottom">
                         <div class="p-5 text-center">
                             <p class="fs-2 fw-bolder text-center">
                                 eATLAS Mobile Tours - <br>
@@ -87,56 +109,12 @@ get_header();
                         </div>
                     </div>
                 </div>
-
-            </div>
-
-        </div>
-    </div>
-
-    <!-- NOTE mobile landing -->
-    <div class="row mx-0 d-md-none">
-        <div class="col-sm-12 px-0 ">
-            <div class="d-flex flex-column">
-                <p class="fs-1 blue-5 fw-bold text-center mt-4 airplane-svg">Explore</p>
-                <p class="fs-1 blue-5 fw-bold text-center  airplane-svg"> the world</p>
-                <img style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/airplane.svg" ?>
-            </div>
-            <p class="fs-4 blue-5 fw-light text-center my-5">Live amazing Experiences</p>
-            <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/home-landing-bg.svg" alt="home landing ">
-        </div>
-    </div>
-
-    <!-- NOTE meet video mobile -->
-    <div class="row mx-0 bg-blue-1 d-md-none" style="height: 100vh;">
-        <!-- NOTE mobile landing -->
-        <div class="container ">
-            <div class="row py-4">
-                <div class="col-12">
-                    <p class="fw-bolder fs-1 text-center blue-5">Meeet eAtlas</p>
-                    <p class="fw-lighter fs-5 text-center blue-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quidem ullam odit enim quas rerum libero rem </p>
-                </div>
-            </div>
-            <div class="row mx-auto">
-                <div class="col-12 d-flex flex-row justify-content-center" style="height: 12em;">
-                    <video controls class="position-relative" style="height: 100%; width: auto" src="<?php echo get_bloginfo('template_url') ?>/assets/videos/meetVideo.mp4">
-                        <i style="height: 3em;" class="bi bi-play-circle-fill position-absolute top-100 start-50"></i>
-                    </video>
-                </div>
-            </div>
-            <div class="row m-0 mt-4">
-                <div class="col-12">
-                    <p class="fw-normal fs-1 py-2 text-center blue-5">Get eAtlas</p>
-                    <div class="d-flex flex-row  justify-content-center mx-auto">
-                        <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                        <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 
     <!-- NOTE meet video desktop -->
-    <div class="d-none d-md-flex row mx-0 bg-gray " style="min-height: 100vh;">
+    <div class="row mx-0 bg-gray " style="min-height: 100vh;">
         <!-- NOTE mobile landing -->
         <div class="container ">
             <div class="row py-4">
@@ -146,9 +124,8 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 d-flex flex-row justify-content-center p-5" style="height: fit-content;">
-                    <video class="shadow mx-5" style="height: 50%; border-radius: 6.5%" src="<?php echo get_bloginfo('template_url') ?>/assets/videos/meetVideo.mp4">
-                    </video>
+                <div class="col-12 d-flex flex-row flex-md-column justify-content-center p-5" style="height: fit-content;">
+                    <img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/video-preview.png" alt="">
                 </div>
             </div>
             <div class="row  m-0 mt-4 mb-5">

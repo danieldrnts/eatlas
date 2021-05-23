@@ -392,6 +392,20 @@ textarea:focus {
   .experience-info-map-custom-size {
     height: 10em;
   }
+  .logo-mobile-size {
+    max-width: 20% !important;
+  }
+  .borders-mobile-top {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    /* border-bottom-left-radius: 10%; */
+  }
+  .borders-mobile-bottom {
+    /* border-top-left-radius: 10%; */
+    /* border-top-right-radius: 10%; */
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -412,6 +426,14 @@ textarea:focus {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .logo-mobile-size {
+    max-width: 100% !important;
+  }
+  .borders-mobile-top {
+    border-top-left-radius: 10%;
+    /* border-top-right-radius: 10%; */
+    border-bottom-left-radius: 10%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
