@@ -15,25 +15,55 @@
 <!-- NOTE footer -->
 
 <!-- NOTE mobile -->
-<div class=" container-fluid p-0 m-0">
-	<div class="row  bg-secondary d-md-flex flex-md-row-reverse m-0">
-		<div class="col-12 col-md-3 my-md-auto ">
+<div class="bg-secondary d-flex flex-column justify-content-between container-fluid p-0 m-0 footer-mobile-height">
+	<div class="row d-md-flex flex-md-row m-0">
+		<!-- LOGO -->
+		<div class="col-12 col-md-3 d-flex flex-row justify-content-center">
+			<img class="img-fluid footer-logo-custom-size my-5" src="<?php echo get_bloginfo('template_url') ?>/assets/images/footer/logo-with-text.png" alt="">
+		</div>
+		<!-- SOCIAL -->
+		<div class="col-12 col-md-6">
+			<div class="row d-md-flex text-white m-md-5">
+				<div class="col-12 col-md-8">
+					<ul style="list-style-type: none">
+						<li class="my-2"><span class="fw-light fs-5 ">
+								At eATLAS, we're out to Whoa the World <br> with unforgettable mobile tours and <br> experiences custom-designed by our <br> eATLAS Whoa!Guides.
+							</span></li>
+						<li class="my-2">
+							<span class="fw-bold fs-5">
+								We made it easy. You make it amazing.
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-4 my-5 py-5">
+					<ul style="list-style-type: none;">
+						<li class="mt-2">
+							<a href="#" style="text-decoration: none;">
+								<span class="fw-bold fs-5 text-white ">
+									Take a Tour
+							</a>
+							</span>
+						</li>
+						<li class="mt-2">
+							<a href="#" style="text-decoration: none;">
+								<span class="fw-bold fs-5 text-white">
+									Whoa! Guide
+							</a>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- DIRECTION -->
+		<div class="col-12 col-md-3 py-5 py-md-0 my-md-auto ">
 			<p class="text-white fw-normal fs-3 text-center">872 s Milwaukee Avenue #139 <br> Libertyville IL 60048</p>
 
-			<div class="d-none d-md-block text-white text-center">
+			<div class="text-white text-center">
 				<p class="fw-normal fs-3">224-202-7536</p>
 			</div>
-			<ul class="d-none d-md-flex flex-row justify-content-center ps-0" style="list-style-type: none">
-				<!-- <li class="mx-2">
-					<a href="#">
-						<i class="bi bi-youtube text-white" style="font-size: 1.5rem;"></i>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="#">
-						<i class="bi bi-twitter text-white" style="font-size: 1.5rem;"></i>
-					</a>
-				</li> -->
+			<ul class="d-flex flex-row justify-content-center ps-0" style="list-style-type: none">
 				<li class="mx-2">
 					<a href="#">
 						<i class="bi bi-instagram text-white" style="font-size: 2rem;"></i>
@@ -46,85 +76,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="col-12 col-md-6">
-			<div class="row d-none d-md-flex text-white m-5">
-				<div class="col-8 ">
-					<ul style="list-style-type: none">
-						<li class="my-2"><span class="fw-light fs-5 ">
-								Let's Whoa the World with amazing mobile tours/experiences you create on eATLAS.
-							</span></li>
-						<li class="my-2">
-							<span class="fw-light fs-5">
-								We made it easy. You make it amazing.
-							</span>
-						</li>
-						<li class="my-2">
-							<span class="fw-light fs-5">
-								It's fast, fun, and simple to build mobile tours & experiences with no coding required!
-							</span>
-						</li>
-					</ul>
-				</div>
-				<div class="col-4">
-					<ul style="list-style-type: none;">
-						<li class="mt-2">
-							<a href="#" style="text-decoration: none;">
-								<span class="fw-bold fs-5 text-white">
-									Whoa! Guide
-							</a>
-							</span>
-						</li>
-						<li class="mt-2">
-							<a href="#" style="text-decoration: none;">
-								<span class="fw-bold fs-5 text-white">
-									Consumers
-							</a>
-							</span>
-						</li>
-						<li class="mt-2">
-							<a href="#" style="text-decoration: none;">
-								<span class="fw-bold fs-5 text-white">
-									Contact us
-							</a>
-							</span>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<ul class="d-flex flex-row justify-content-center ps-0 d-md-none" style="list-style-type: none">
-				<li class="mx-2">
-					<a href="#">
-						<i class="bi bi-youtube text-white" style="font-size: 1.5rem;"></i>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="#">
-						<i class="bi bi-twitter text-white" style="font-size: 1.5rem;"></i>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="#">
-						<i class="bi bi-instagram text-white" style="font-size: 1.5rem;"></i>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="#">
-						<i class="bi bi-facebook text-white" style="font-size: 1.5rem;"></i>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div class="col-12 col-md-3 my-md-auto">
-			<div class="d-flex flex-row justify-content-center align-content-center ">
-				<p class="fw-bolder fs-1 text-white text-center mx-3">
-					eAtlas
-				</p>
-				<i class="bi bi-youtube text-white align-middle" style="font-size: 1.5rem;"></i>
-			</div>
-			<div class="text-center">
-				<small class="text-white text-center">Lorem ipsum dolor, sit amet consectetur adipisicing</small>
-			</div>
-		</div>
+
 	</div>
 	<div class="row bg-light m-0 p-0">
 		<div class="col-12 d-flex flex-column justify-content-center">

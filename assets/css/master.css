@@ -406,6 +406,12 @@ textarea:focus {
     border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%;
   }
+  .footer-mobile-height {
+    min-height: 100vh !important;
+  }
+  .footer-logo-custom-size {
+    height: 7rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -433,6 +439,9 @@ textarea:focus {
     border-top-left-radius: 10%;
     /* border-top-right-radius: 10%; */
     border-bottom-left-radius: 10%;
+  }
+  .footer-mobile-height {
+    min-height: fit-content;
   }
 }
 

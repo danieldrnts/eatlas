@@ -146,81 +146,25 @@ get_header();
     </div>
 
     <!-- NOTE Download app Desktop new -->
-    <div class="d-none d-md-flex row m-0 p-0 bg-warning" style="height:80vh">
-        <div class="col-5 h-100  d-flex flex-column justify-content-center">
-            <div class=" d-flex">
-                <img src="https://source.unsplash.com/random/500x350" class="shadow mx-auto" style="border-radius: 4.25rem!important;">
+    <div class=" row pb-5 p-0 bg-warning pb-md-0 m-0" style="min-height:80vh">
+        <div class="col-12 col-md-5 d-flex flex-column justify-content-center">
+            <div class="d-flex flex-column flex-md-row justify-content-end">
+                <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/download-section.png">
             </div>
         </div>
-        <div class="col-7 d-flex justify-content-start h-100">
+        <div class="col-12 col-md-7 d-flex justify-content-start ">
             <div class="d-flex flex-column justify-content-center ">
-                <p class="fw-bold fs-1 pt-1 text-start">The tour starts when you say it does.</p>
-                <p class="fs-4 fw-normal text-start mt-4 mx-4 airplane-svg">All eAtlas tours & experiences are desinged and built by experienced eATLAS Whoa!Guides. They're always on. Always entertaining. And always ready to go.</p>
-                <p class="fw-bold fs-4 text-start my-4">Download eATLAS & Tour Anytime</p>
-                <div class="d-flex flex-row  justify-content-start mt-2">
-                    <img class="shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                    <img class="ms-4 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- NOTE Download App Mobile-->
-    <div class="row m-0 p-0 bg-blue-2 d-flex flex-column d-md-none" style="min-height: 100vh;">
-        <div class="col-12  my-4">
-            <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
-            <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
-            <div class="d-flex flex-row  justify-content-center mx-auto">
-                <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
-            </div>
-        </div>
-        <div class=" mt-5 col-12 bg-blue-4 d-flex flex-column justify-content-center flex-grow-1 " style="border-top-left-radius: 50%;border-top-right-radius: 50%;">
-            <p class="fw-normal fs-2 text-white  mt-5 pt-2 mx-5 text-center">Experiences all around the <span class="fw-bold">globe</span> </p>
-            <img class="mx-2" style="height: 12em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/world-map.svg" alt="google-badge">
-            <p class="fw-light my-1 fs-6 text-white my-3 mx-5 text-center"> Lorem ipsum dolor sit amet dolor sit </p>
-        </div>
-    </div>
-
-    <!-- NOTE Some Experiences mobile-->
-    <div class="row m-0 p-0 bg-blue-2 d-flex flex-column d-md-none" style="min-height: 100vh;">
-        <div class="col-12 mt-3">
-            <p class="fw-bold blue-5 fs-1 text-center">Some experiences</p>
-            <p class="fw-light blue-4 fs-6 text-center mx-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quod quasi </p>
-        </div>
-        <div class="col-12 mb-3">
-            <div class="container-fluid p-0">
-                <div class="row my-2">
-                    <div class="col-6">
-                        <?php
-                        get_template_part('template-parts/experience', 'card');
-                        // get_template_part('template-parts/experience', 'card', $experiencesCards[2]);
-                        ?>
-                    </div>
-                    <div class="col-6">
-                        <?php
-                        get_template_part('template-parts/experience', 'card');
-                        // get_template_part('template-parts/experience', 'card', $experiencesCards[1]);
-                        ?>
-                    </div>
-                </div>
-                <div class="row my-1">
-                    <div class="col-12 ">
-                        <?php
-                        get_template_part('template-parts/experience', 'card');
-                        // get_template_part('template-parts/experience', 'card', $experiencesCards[0]);
-                        ?>
-                    </div>
+                <p class="fw-bold fs-1 pt-1 text-center text-md-start mx-2 mx-md-0">The tour starts when you say it does.</p>
+                <p class="fs-4 fw-normal text-start mt-1 mt-md-4 mx-4 airplane-svg">All eAtlas tours & experiences are desinged and built by experienced eATLAS Whoa!Guides. They're always on. Always entertaining. And always ready to go.</p>
+                <p class="fw-bold fs-4 text-center text-md-start my-4">Download eATLAS & Tour Anytime</p>
+                <div class="d-flex flex-column flex-md-row  justify-content-start mt-2">
+                    <img class="my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
+                    <img class="ms-md-4 my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
                 </div>
             </div>
         </div>
-        <div class="col-12 my-4">
-            <p class="fw-bold fs-3 blue-5 text-center under-line-blue mx-1 ">
-                Visit our Experiences Blog
-            </p>
-        </div>
     </div>
+
 
     <!-- NOTE Some Experiences desktop -->
     <!-- TODO terminar la galleria -->
