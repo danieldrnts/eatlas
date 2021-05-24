@@ -65,8 +65,8 @@ get_header();
         </div>
     </div>
 
-    <!-- NOTE Brian new gallery layout DESKTOP -->
-    <div class="d-md-none row px-5 bg-primary pb-5" style="min-height: 100vh;background-color: var(--b-blue)">
+    <!-- NOTE Brian new gallery layout MOBILE -->
+    <div class="d-md-none row px-5 bg-primary pb-5" style="min-height: fit-content;background-color: var(--b-blue)">
         <div class="container-fluid">
             <div class="row mt-5">
                 <div class="col-12">
@@ -243,9 +243,9 @@ get_header();
         </div>
         <div class="col-12 col-md-7 d-flex justify-content-start ">
             <div class="d-flex flex-column justify-content-center ">
-                <p class="fw-bold fs-1 pt-1 text-center text-md-start mx-2 mx-md-0">The tour starts when you say it does.</p>
-                <p class="fs-4 fw-normal text-start mt-1 mt-md-4 mx-4 airplane-svg">All eAtlas tours & experiences are desinged and built by experienced eATLAS Whoa!Guides. They're always on. Always entertaining. And always ready to go.</p>
-                <p class="fw-bold fs-4 text-center text-md-start my-4">Download eATLAS & Tour Anytime</p>
+                <p class="fw-bold fs-1 pt-1 ms-3 text-start text-md-center mx-md-2 mx-md-0">Looking to take an eATLAS Tour?</p>
+                <!-- <p class="fs-4 fw-normal text-start mt-1 mt-md-4 mx-4 airplane-svg">All eAtlas tours & experiences are desinged and built by experienced eATLAS Whoa!Guides. They're always on. Always entertaining. And always ready to go.</p> -->
+                <p class="fw-bold fs-4 text-center text-md-start my-4 mx-5 mx-md-0">Download eATLAS & Tour Anytime</p>
                 <div class="d-flex flex-column flex-md-row  justify-content-start mt-2">
                     <img class="my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
                     <img class="ms-md-4 my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
