@@ -165,6 +165,34 @@ get_header();
         </div>
     </div>
 
+    <?php
+    // I bring the guides info
+    // $posts = wp_get_recent_posts(array(
+    //     'numberposts' => 4,
+    // ))
+
+    $guidesInfo = [];
+
+    $userInfoAlicia = get_user_meta(5);
+    $userInfoDavid = get_user_meta(4);
+    $userInfoLeentje = get_user_meta(2);
+    $userInfoWill = get_user_meta(6);
+
+    $userInfoAlicia['picture'] = "http://127.0.0.1/wp/wp-content/uploads/2021/05/alicia-dumas.png";
+    $userInfoDavid['picture'] = "http://127.0.0.1/wp/wp-content/uploads/2021/05/david-clark.jpg";
+    $userInfoLeentje['picture'] = "http://127.0.0.1/wp/wp-content/uploads/2021/05/leentje-de-leeuw.jpg";
+    $userInfoWill['picture'] = "http://127.0.0.1/wp/wp-content/uploads/2021/05/will-quam-scaled.jpg";
+
+
+    // print_r($userInfoDavid);
+
+    // print_r(json_decode($userInfoAlicia['simple_local_avatar'][0], true));
+    // print_r($userInfoAlicia['simple_local_avatar']);
+    // $stringy = '{s:8:"media_id";i:48;s:4:"full";s:63:"http://127.0.0.1/wp/wp-content/uploads/2021/05/alicia-dumas.png";i:192;s:71:"http://127.0.0.1/wp/wp-content/uploads/2021/05/alicia-dumas-192x192.png";i:96;s:69:"";i:64;s:69:"http://127.0.0.1/wp/wp-content/uploads/2021/05/alicia-dumas-64x64.png";i:32;s:69:"http://127.0.0.1/wp/wp-content/uploads/2021/05/alicia-dumas-32x32.png";}';
+    // var_dump(json_decode($stringy));
+    // var_dump(json_decode(json_encode($stringy)));
+
+    ?>
     <!-- NOTE Meet Builders MOBILE -->
     <div class="row m-0 p-0 bg-blue-2 mt-3 d-flex flex-column d-md-none" style="min-height: 100vh;">
         <div class="col-12 mt-3">
@@ -178,19 +206,20 @@ get_header();
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <?php get_template_part('template-parts/builder', 'card'); ?>
-
+                        <?php get_template_part('template-parts/builder', 'card', $userInfoAlicia); ?>
                     </div>
                     <div class="carousel-item">
-                        <?php get_template_part('template-parts/builder', 'card'); ?>
-
+                        <?php get_template_part('template-parts/builder', 'card', $userInfoDavid); ?>
                     </div>
                     <div class="carousel-item">
-                        <?php get_template_part('template-parts/builder', 'card'); ?>
-
+                        <?php get_template_part('template-parts/builder', 'card', $userInfoLeentje); ?>
+                    </div>
+                    <div class="carousel-item">
+                        <?php get_template_part('template-parts/builder', 'card', $userInfoWill); ?>
                     </div>
                 </div>
                 <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -212,10 +241,10 @@ get_header();
         </div>
         <div class="col-12">
             <div class="d-flex flex-row justify-content-between">
-                <?php get_template_part('template-parts/builder', 'card'); ?>
-                <?php get_template_part('template-parts/builder', 'card'); ?>
-                <?php get_template_part('template-parts/builder', 'card'); ?>
-                <?php get_template_part('template-parts/builder', 'card'); ?>
+                <?php get_template_part('template-parts/builder', 'card', $userInfoAlicia); ?>
+                <?php get_template_part('template-parts/builder', 'card', $userInfoDavid); ?>
+                <?php get_template_part('template-parts/builder', 'card', $userInfoLeentje); ?>
+                <?php get_template_part('template-parts/builder', 'card', $userInfoWill); ?>
             </div>
         </div>
         <div class="col-12 py-5">

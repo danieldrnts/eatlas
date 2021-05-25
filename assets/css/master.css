@@ -412,6 +412,14 @@ textarea:focus {
   .footer-logo-custom-size {
     height: 7rem;
   }
+  .builder-rounded-avantar {
+    border-radius: 50%;
+  }
+  .guides-custom-size-card {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -474,6 +482,14 @@ textarea:focus {
   }
   .custom-font-size {
     font-size: 4.5rem !important;
+  }
+  .builder-rounded-avantar {
+    border-radius: 50%;
+  }
+  .guides-custom-size-card {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
   }
 }
 
