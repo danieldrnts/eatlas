@@ -34,28 +34,44 @@
 				<nav class="navbar navbar-expand-lg navbar-light ">
 					<div class="container-fluid px-0 py-2">
 						<a class="ps-md-5 navbar-brand fw-bold blue-5" href="#">
-							<img src="https://play-lh.googleusercontent.com/IlyM8GsSE1CNeivAVhEEyFvRy9L_XvRGANeRdZBHYPu_tqFf3SK3rMietjfpZkxPxHDh=s180-rw" alt="" width="30" height="24" class="d-inline-block align-text-top">
-							<span class="text-gray">eAtlas</span> 
+							<img src="<?php echo get_bloginfo('template_url') ?>/assets/images/footer/logo-black-text.png" alt="logo-eatlas" class="d-inline-block align-text-top logo-custom-size-nav">
 						</a>
 						<button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 
 						<div class="collapse navbar-collapse custom-bg-5-mobile mt-2" id="navbarText">
-
-
 							<!-- NOTE desktop MENU -->
 							<?php
 							wp_nav_menu(
 								array(
 									'theme_location' => 'main-menu',
 									'menu_class' => 'd-none d-sm-flex navbar-nav mx-auto mb-2 mb-lg-0',
+									'container_id' => 'container_id_menu',
 									'container_class' => 'container d-flex flex-row justify-content-center desktop-child-custom',
 								)
 							);
-
-
 							?>
+
+							<script>
+								console.log(window.location.href);
+								if (window.location.href == 'http://127.0.0.1/wp/') {
+									let itemnav = document.getElementById('menu-item-26');
+									itemnav.classList.add('underline-pink');
+								}
+								if (window.location.href == 'http://127.0.0.1/wp/blog/') {
+									let itemnav = document.getElementById('menu-item-23');
+									itemnav.classList.add('underline-pink');
+								}
+								if (window.location.href == 'http://127.0.0.1/wp/customers/') {
+									let itemnav = document.getElementById('menu-item-24');
+									itemnav.classList.add('underline-pink');
+								}
+								if (window.location.href == 'http://127.0.0.1/wp/builders/') {
+									let itemnav = document.getElementById('menu-item-25');
+									itemnav.classList.add('underline-pink');
+								}
+							</script>
 
 							<p class="d-sm-none h1 text-white fw-bold mt-3 mb-4 ms-4 ">
 								<span class="under-line">More to see</span>
@@ -100,7 +116,7 @@
 							</div>
 						</div>
 
-							<!-- NOTE social icons desktop -->
+						<!-- NOTE social icons desktop -->
 						<!-- <div class="d-none d-sm-flex navbar-text  me-5 ">
 							<ul class="d-flex flex-row justify-content-center ps-0" style="list-style-type: none">
 								<li class="mx-2">
@@ -130,5 +146,3 @@
 				</nav>
 			</div>
 			<div class="col-12 flex-grow-1 px-0">
-
-			

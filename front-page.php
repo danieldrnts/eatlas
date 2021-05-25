@@ -24,7 +24,7 @@ get_header();
 <div class="container-fluid px-0 ">
 
     <!-- NOTE landing desktop -->
-    <div class=" row m-0 p-0  bg-b-blue-gradient" style="min-height:90vh">
+    <div class=" row m-0 p-0  bg-b-purple-gradient" style="min-height:90vh">
         <!-- NOTE mobile carousel -->
         <div class="d-md-none row  m-0 p-0">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -46,34 +46,34 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 text-white">
+        <div class="col-12 col-md-5 text-white">
             <p class="fs-1  fw-bold text-center mt-4 airplane-svg">Tours that Whoa!</p>
-            <p class="fs-2  fw-light text-start mt-4 mx-1 mx-md-5 airplane-svg">If your city could talk, it would tell you to download eATLAS for the best on demand, mobile tours and adventures.</p>
+            <p class="fs-4  fw-light text-start mt-4 mx-1 mx-md-5 airplane-svg">If your city could talk, it would tell you to download eATLAS for the best on demand, mobile tours and adventures.</p>
             <br>
-            <p class="fs-2  fw-normal text-start ms-md-5 mb-5">Throw out your guidebook. eATLAS is here.</p>
+            <p class="fs-4  fw-normal text-start ms-md-5 mb-5">Throw out your guidebook. eATLAS is here.</p>
             <!-- <img class="my-3 ms-5" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/airplane.svg" ?> -->
             <p class="fw-normal fs-1 pt-1 text-center mt-5 ">Download & Go NOW</p>
             <div class="d-flex flex-column flex-md-row  justify-content-center mx-auto mt-2">
-                <img class="mx-md-5 my-2 my-md-0 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                <img class="mx-md-5 my-2 my-md-0 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                <img class="mx-md-5 my-2 my-md-0 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
+                <img class="mx-md-5 my-2 my-md-0 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
             </div>
         </div>
         <!-- NOTE mini grid DESKTOP -->
-        <div class="d-none d-md-flex col-6 flex-column justify-content-center">
+        <div class="d-none d-md-flex col-7 flex-column justify-content-center">
             <div class="row h-100">
-                <div class="col-12 h-100 p-5">
+                <div class="col-12 h-100 pb-5 mb-5">
                     <div class="position-relative  h-100">
-                        <img src="https://source.unsplash.com/random/300x150" alt="" class="position-absolute shadow top-50 start-0 translate-middle-y rounded" style="z-index: 99;">
-                        <img src="https://source.unsplash.com/random/400x300" alt="" class="position-absolute shadow top-50 start-50 translate-middle" style="z-index: 98;">
-                        <img src="https://source.unsplash.com/random/300x150" alt="" class="position-absolute shadow top-50 start-50 rounded mt-3" style="z-index: 100;">
-                        <img src="https://source.unsplash.com/random/300x150" alt="" class="position-absolute shadow bottom-0 start-50 translate-middle-x mb-5 pb-5 rounded" style="z-index: 101;">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/minigrid/1.png" alt="" class="img-fluid position-absolute shadow top-50 start-0 translate-middle-y rounded" style="z-index: 97;max-height: 13rem;margin-top:7rem">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/minigrid/2.png" alt="" class="img-fluid position-absolute shadow top-50 start-50 translate-middle" style="z-index: 97;max-height: 13rem;margin-left: 14rem;margin-top: 6rem;">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/minigrid/3.png" alt="" class="img-fluid position-absolute shadow top-50 start-50 rounded " style="z-index: 98;max-height: 13rem;margin-top: 7rem;">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/minigrid/4.png" alt="" class="img-fluid position-absolute shadow bottom-0 start-50 translate-middle-x mb-5 pb-5 rounded" style="z-index: 96;max-height: 21rem">
                     </div>
                 </div>
             </div>
             <!-- <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/world-map.svg" alt=""> -->
         </div>
         <!-- NOTE TWO GUIDES -->
-        <div class="col-12 ">
+        <div class="col-12 mt-5">
             <div class="row mx-0 my-5 d-flex flex-row justify-content-center" style="height: fit-content;">
                 <div class="col-12 d-flex flex-column flex-md-row" style="width: fit-content;height:min-content">
                     <div class="bg-light text-dark mx-auto borders-mobile-top">
@@ -137,8 +137,8 @@ get_header();
                         <p class="fw-bold fs-3 py-2 text-start text-dark mb-3">Just tap to Tour. And Swipe to Whoa!</p>
                     </div>
                     <!-- <div class="d-flex flex-row  justify-content-center mx-auto">
-                        <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                        <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                        <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
+                        <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
                     </div> -->
                 </div>
             </div>
@@ -158,54 +158,13 @@ get_header();
                 <p class="fs-4 fw-normal text-start mt-1 mt-md-4 mx-4 airplane-svg">All eAtlas tours & experiences are desinged and built by experienced eATLAS Whoa!Guides. They're always on. Always entertaining. And always ready to go.</p>
                 <p class="fw-bold fs-4 text-center text-md-start my-4">Download eATLAS & Tour Anytime</p>
                 <div class="d-flex flex-column flex-md-row  justify-content-start mt-2">
-                    <img class="my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                    <img class="ms-md-4 my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                    <img class="my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
+                    <img class="ms-md-4 my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
                 </div>
             </div>
         </div>
     </div>
 
-
-    <!-- NOTE Some Experiences desktop -->
-    <!-- TODO terminar la galleria -->
-    <? //php
-
-    // posts araay
-    //$posts = get_posts(array('numberposts' => 2 )); 
-    //print_r($posts[0]);
-    ?>
-    <!-- <div class="row m-0 p-0 d-none d-md-flex" style="min-height: 100vh;">
-        <div class="col-8 bg-blue-1" style="min-height: 100%;">
-            <div class="row row-cols-1 row-cols-md-2 g-4" data-masonry='{"percentPosition": true }'>
-                <div class="col">
-                    <? //php // get_template_part('template-parts/experience', 'gallerycard', $posts[0] -> to_array()) 
-                    ?>
-                </div>
-                <div class="col">
-                    <? //php  // get_template_part('template-parts/experience', 'gallerycard', $posts[1] -> to_array()) 
-                    ?>
-                </div>
-                <div class="col">
-                    <? //php  // get_template_part('template-parts/experience', 'gallerycard'); 
-                    ?>
-                </div>
-                <div class="col">
-                    <? //php  // get_template_part('template-parts/experience', 'gallerycard'); 
-                    ?>
-                </div>
-            </div>
-        </div>
-        <div class="col-4 bg-blue-2">
-            <div class="p-3 d-flex flex-column justify-content-center align-middle">
-                <p class="fw-normal fs-2 pt-1 text-center blue-5">Some <span class="fw-bolder">Experiences</span> </p>
-                <p class="fw-lighter fs-4 pt-1 text-center blue-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat exercitationem</p>
-                <p class="fw-lighter fs-6 pt-1 text-center blue-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat exercitationem voluptatum vel. Quidem itaque repudiandae nesciunt ex iure quaerat cumque, reiciendis dignissimos? Aliquam incidunt, molestias consequatur dolores odio omnis.</p>
-                <p class="fw-bold fs-3 blue-5 text-center under-line-blue mx-1 ">
-                    Visit our Experiences Blog
-                </p>
-            </div>
-        </div>
-    </div> -->
 
 </div>
 

@@ -15,8 +15,8 @@ get_header();
                     <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
                     <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
                     <div class="d-flex flex-row  justify-content-center mx-auto">
-                        <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                        <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                        <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
+                        <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
                     </div>
                 </div>
                 <img class="mt-md-5" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/airplane.svg" ?>
@@ -48,8 +48,8 @@ get_header();
                 <p class="fw-bold fs-1 m-0 text-center blue-5">Get eAtlas</p>
                 <p class="fw-light fs-3 text-center blue-5 m-2">Available on very device</p>
                 <div class="d-flex flex-row  justify-content-center mx-auto">
-                    <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                    <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                    <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
+                    <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
                 </div>
             </div>
         </div>
@@ -123,8 +123,8 @@ get_header();
             <p class="fw-bold fs-1 pt-1 text-center blue-5">Get eAtlas</p>
             <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
             <div class="d-flex flex-row  justify-content-center mx-auto">
-                <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
+                <img class="mx-2 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
             </div>
         </div>
         <div class="mt-5 col-12 bg-blue-4 d-flex flex-column justify-content-center flex-grow-1 " style="border-top-left-radius: 50%;border-top-right-radius: 50%;">
@@ -243,7 +243,7 @@ get_header();
             <div class="d-none d-md-block blue-5 px-5">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque tempora sit, voluptate, vitae magni inventore molestias amet dignissimos beatae consequatur omnis totam quisquam corporis blanditiis sequi exercitationem aliquid ipsa?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus mollitia, distinctio eveniet soluta sint voluptatum? Ab, veritatis quod amet aperiam cumque reiciendis. Porro accusamus alias adipisci placeat at a perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo corporis veritatis molestiae ut natus accusamus hic, doloribus, illum molestias sed, cumque officiis sequi ratione adipisci eaque fugiat excepturi odit!</p>
-                
+
             </div>
 
         </div>
@@ -260,8 +260,8 @@ get_header();
                 </div>
             </div>
             <div class="row p-5">
-            <div class="col-2">
-            </div>
+                <div class="col-2">
+                </div>
                 <div class="col-4 ">
                     <?php get_template_part('template-parts/builder', 'card'); ?>
                 </div>
@@ -279,8 +279,8 @@ get_header();
             <p class="text-center blue-4 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptate error exercitationem dolor aliquid, illum, sed, placeat et earum tenetur facilis voluptas aperiam recusandae! Magni vero provident vel fuga laboriosam.</p>
             <p class="fw-light fs-4 text-center blue-5 my-4">Available on every device</p>
             <div class="d-flex flex-row  justify-content-center mx-auto mt-2">
-                <img class="mx-5 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                <img class="mx-5 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                <img class="mx-5 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
+                <img class="mx-5 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
             </div>
         </div>
         <div class="col-6 d-flex flex-column justify-content-center">

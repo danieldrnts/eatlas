@@ -26,8 +26,8 @@ get_header();
                             <span class="fw-bold fs-2 text-white px-5">Apply now!</span>
                         </div>
                         <div class="mx-auto my-2 my-md-5 text-center" style="width: fit-content;">
-                            <img class="shadow my-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                            <img class="ms-md-4 shadow my-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                            <img class="shadow my-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
+                            <img class="ms-md-4 shadow my-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
                             <p class="fw-lighter fs-2 my-3 my-md-5">
                                 <a class="text-white" href="#">Become a Whoa!Guide </a>
                             </p>
@@ -269,8 +269,8 @@ get_header();
                 <!-- <p class="fs-4 fw-normal text-start mt-1 mt-md-4 mx-4 airplane-svg">All eAtlas tours & experiences are desinged and built by experienced eATLAS Whoa!Guides. They're always on. Always entertaining. And always ready to go.</p> -->
                 <p class="fw-normal fs-4 text-start text-md-start my-1 mx-md-5 mx-md-0 ms-3 ms-md-0">Get eATLAS from your favorite platform.</p>
                 <div class="d-flex flex-column flex-md-row  justify-content-start mt-2">
-                    <img class="my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.svg" alt="google-badge">
-                    <img class="ms-md-4 my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.svg" alt="google-badge">
+                    <img class="my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
+                    <img class="ms-md-4 my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
                 </div>
             </div>
         </div>
