@@ -54,8 +54,12 @@ get_header();
             <!-- <img class="my-3 ms-5" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/airplane.svg" ?> -->
             <p class="fw-normal fs-1 pt-1 text-center mt-5 ">Download & Go NOW</p>
             <div class="d-flex flex-column flex-md-row  justify-content-center mx-auto mt-2">
-                <img class="mx-md-5 my-2 my-md-0 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
-                <img class="mx-md-5 my-2 my-md-0 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
+                <a href="https://play.google.com/store/apps/details?id=com.atlas.incitefulgame">
+                    <img class="mx-md-5 my-2 my-md-0 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
+                </a>
+                <a href="https://apps.apple.com/us/app/eatlas/id1397714508">
+                    <img class="mx-md-5 my-2 my-md-0 shadow" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
+                </a>
             </div>
         </div>
         <!-- NOTE mini grid DESKTOP -->
@@ -125,7 +129,7 @@ get_header();
             </div>
             <div class="row">
                 <div class="col-12 d-flex flex-row flex-md-column justify-content-center p-5" style="height: fit-content;">
-                    <img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/home/video-preview.png" alt="">
+                    <img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/consumers-page/phone-video.png" alt="">
                 </div>
             </div>
             <div class="row  m-0 mt-4 mb-5">
@@ -136,10 +140,6 @@ get_header();
                             Find NEW tours added every week.</p>
                         <p class="fw-bold fs-3 py-2 text-start text-dark mb-3">Just tap to Tour. And Swipe to Whoa!</p>
                     </div>
-                    <!-- <div class="d-flex flex-row  justify-content-center mx-auto">
-                        <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
-                        <img class="mx-2" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -158,8 +158,12 @@ get_header();
                 <p class="fs-4 fw-normal text-start mt-1 mt-md-4 mx-4 airplane-svg">All eAtlas tours & experiences are desinged and built by experienced eATLAS Whoa!Guides. They're always on. Always entertaining. And always ready to go.</p>
                 <p class="fw-bold fs-4 text-center text-md-start my-4">Download eATLAS & Tour Anytime</p>
                 <div class="d-flex flex-column flex-md-row  justify-content-start mt-2">
-                    <img class="my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
-                    <img class="ms-md-4 my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
+                    <a href="https://play.google.com/store/apps/details?id=com.atlas.incitefulgame">
+                        <img class="my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/google-play-badge.png" alt="google-badge">
+                    </a>
+                    <a href="https://apps.apple.com/us/app/eatlas/id1397714508">
+                        <img class="ms-md-4 my-2 my-md-0" style="height: 3em;" src="<?php echo get_bloginfo('template_url') ?>/assets/images/apple-badge.png" alt="google-badge">
+                    </a>
                 </div>
             </div>
         </div>

@@ -460,6 +460,9 @@ textarea:focus {
     border-bottom-right-radius: 10%;
     /* border-bottom-left-radius: 10%; */
   }
+  .footer-logo-custom-size {
+    height: 10rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

@@ -58,10 +58,12 @@
 		</div>
 		<!-- DIRECTION -->
 		<div class="col-12 col-md-3 py-5 py-md-0 my-md-auto ">
-			<p class="text-white fw-normal fs-3 text-center">872 s Milwaukee Avenue #139 <br> Libertyville IL 60048</p>
+			<p class="text-white fw-normal fs-5 text-center">872 s Milwaukee Avenue #139 <br> Libertyville IL 60048</p>
 
 			<div class="text-white text-center">
-				<p class="fw-normal fs-3">224-202-7536</p>
+				<p class="fw-normal fs-5 ">
+					<a class="text-white" style="text-decoration: none;" href="tel:2242027536">224-202-7536</a>
+				</p>
 			</div>
 			<ul class="d-flex flex-row justify-content-center ps-0" style="list-style-type: none">
 				<li class="mx-2">
